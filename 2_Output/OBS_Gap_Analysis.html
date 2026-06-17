@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>OBS Gap Analysis — G-TRN A08001 vs Projects</title>
+<style>
+/* ── reset & base ───────────────────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI",system-ui,sans-serif;background:#f1f5f9;color:#1e293b;font-size:14px;line-height:1.5}
+a{color:#2563eb;text-decoration:none}
+
+/* ── page chrome ────────────────────────────────────────────────────────── */
+.page-header{background:linear-gradient(135deg,#0f2d5a 0%,#1e4d8c 60%,#1d6fa6 100%);
+  color:#fff;padding:2.5rem 3rem 2rem;position:sticky;top:0;z-index:100;
+  box-shadow:0 4px 20px rgba(0,0,0,.35)}
+.page-header h1{font-size:1.65rem;font-weight:700;letter-spacing:-.01em}
+.page-header p{font-size:.9rem;opacity:.8;margin-top:.3rem}
+.header-meta{display:flex;gap:1.5rem;margin-top:1rem;flex-wrap:wrap}
+.meta-pill{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);
+  border-radius:20px;padding:.25rem .9rem;font-size:.8rem;font-weight:600}
+
+/* ── nav ────────────────────────────────────────────────────────────────── */
+.nav-bar{background:#fff;border-bottom:1px solid #e2e8f0;
+  display:flex;gap:0;padding:0 3rem;position:sticky;top:0;z-index:99;
+  box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.nav-bar a{padding:.75rem 1.25rem;font-size:.85rem;font-weight:600;color:#475569;
+  border-bottom:3px solid transparent;transition:all .2s;white-space:nowrap}
+.nav-bar a:hover,.nav-bar a.active{color:#1e4d8c;border-bottom-color:#1e4d8c}
+
+/* ── main wrapper ───────────────────────────────────────────────────────── */
+.main{max-width:1400px;margin:0 auto;padding:2rem 2rem 4rem}
+section{margin-bottom:3rem}
+section h2{font-size:1.2rem;font-weight:700;color:#0f2d5a;margin-bottom:1.25rem;
+  padding-bottom:.5rem;border-bottom:2px solid #e2e8f0;display:flex;align-items:center;gap:.5rem}
+section h2::before{content:"";display:block;width:4px;height:1.2em;
+  background:linear-gradient(180deg,#1e4d8c,#1d6fa6);border-radius:2px}
+
+/* ── scorecard row ──────────────────────────────────────────────────────── */
+.scorecard-row{display:flex;gap:1.5rem;flex-wrap:wrap}
+.scorecard-card{background:#fff;border-radius:14px;padding:1.5rem;
+  flex:1;min-width:280px;max-width:380px;
+  box-shadow:0 2px 12px rgba(0,0,0,.07);border:1px solid #e2e8f0}
+.sc-header{margin-bottom:1rem}
+.sc-title{font-size:1.1rem;font-weight:700;color:#0f2d5a}
+.sc-sub{font-size:.8rem;color:#64748b;margin:.2rem 0 .6rem}
+.sc-meta{display:flex;flex-wrap:wrap;gap:.35rem}
+.entity-pill{background:#eff6ff;color:#1d4ed8;border-radius:10px;
+  padding:.15rem .65rem;font-size:.72rem;font-weight:600}
+.lob-pill{background:#f0fdf4;color:#16a34a;border-radius:10px;
+  padding:.15rem .65rem;font-size:.72rem;font-weight:600}
+.sc-body{display:flex;align-items:center;gap:1.25rem;margin-bottom:1rem}
+.sc-donut svg{flex-shrink:0}
+.sc-stats{display:flex;flex-direction:column;gap:.4rem}
+.stat-row{display:flex;align-items:center;gap:.5rem;font-size:.85rem}
+.dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.dot-green{background:#22c55e}.dot-amber{background:#f59e0b}.dot-red{background:#ef4444}
+.sc-bars{margin-bottom:1rem}
+.bar-label-row{font-size:.75rem;color:#64748b;margin-bottom:.3rem}
+.bar-outer{background:#f1f5f9;border-radius:6px;height:22px;overflow:hidden}
+.bar-inner{height:100%;border-radius:6px;display:flex;align-items:center;
+  transition:width .6s ease;min-width:28px}
+.bar-label{font-size:.72rem;font-weight:700;color:#fff;padding:0 .5rem}
+.sc-footer{border-top:1px solid #f1f5f9;padding-top:.75rem;font-size:.8rem;
+  color:#64748b;display:flex;align-items:center;gap:.5rem}
+.risk-badge{padding:.2rem .75rem;border-radius:12px;font-size:.78rem;font-weight:700}
+.risk-low{background:#dcfce7;color:#15803d}
+.risk-med{background:#fef9c3;color:#92400e}
+.risk-high{background:#fee2e2;color:#b91c1c}
+
+/* ── filter bar ─────────────────────────────────────────────────────────── */
+.filter-bar{display:flex;flex-wrap:wrap;gap:.75rem;margin-bottom:1.25rem;align-items:center}
+.filter-bar input{flex:1;min-width:180px;padding:.55rem .9rem;border:1px solid #cbd5e1;
+  border-radius:8px;font-size:.85rem;outline:none;transition:border .2s}
+.filter-bar input:focus{border-color:#1e4d8c;box-shadow:0 0 0 3px rgba(30,77,140,.12)}
+.filter-btn{padding:.5rem 1rem;border-radius:8px;font-size:.8rem;font-weight:600;cursor:pointer;
+  border:1px solid #cbd5e1;background:#fff;color:#475569;transition:all .2s}
+.filter-btn.active,.filter-btn:hover{border-color:#1e4d8c;background:#eff6ff;color:#1e4d8c}
+.filter-btn.btn-matched.active{background:#dcfce7;border-color:#22c55e;color:#15803d}
+.filter-btn.btn-partial.active{background:#fffbeb;border-color:#f59e0b;color:#92400e}
+.filter-btn.btn-missing.active{background:#fee2e2;border-color:#ef4444;color:#b91c1c}
+.filter-count{font-size:.8rem;color:#94a3b8}
+
+/* ── gap table ──────────────────────────────────────────────────────────── */
+.table-wrap{overflow-x:auto;border-radius:12px;
+  box-shadow:0 2px 16px rgba(0,0,0,.08);border:1px solid #e2e8f0}
+table.gap-table{width:100%;border-collapse:collapse;background:#fff;font-size:.84rem}
+.gap-table thead th{background:#0f2d5a;color:#fff;font-weight:600;padding:.8rem .9rem;
+  text-align:left;white-space:nowrap;position:sticky;top:0;z-index:10}
+.gap-table thead th.proj-th{background:#1e4d8c;min-width:230px}
+.proj-name{font-weight:700;font-size:.88rem}
+.proj-sub{font-size:.72rem;opacity:.75;margin-top:.15rem}
+
+.section-header td{background:#1e4d8c;color:#fff;font-weight:700;padding:.55rem 1rem;
+  font-size:.82rem;letter-spacing:.04em;text-transform:uppercase}
+.role-row{border-bottom:1px solid #f1f5f9;transition:background .15s}
+.role-row:hover{background:#f8faff}
+.role-row.mandatory-row{background:#fffdf0}
+.role-row.mandatory-row:hover{background:#fef9c3}
+.role-row.hidden{display:none}
+
+.abbr-cell{color:#64748b;font-weight:600;font-size:.78rem;padding:.75rem .5rem .75rem .9rem;white-space:nowrap}
+.role-cell{padding:.75rem .75rem;font-weight:500;min-width:210px}
+.lob-cell,.mand-cell{padding:.75rem .6rem;text-align:center}
+.mand-dot{color:#f59e0b;font-size:1rem;margin-right:.3rem;cursor:help}
+.status-cell{padding:.5rem .6rem;vertical-align:top}
+
+.lob-tag{display:inline-block;border-radius:6px;padding:.1rem .5rem;font-size:.72rem;font-weight:700}
+.lob-core{background:#dbeafe;color:#1d4ed8}
+.lob-srs{background:#dcfce7;color:#15803d}
+.lob-vhc{background:#fce7f3;color:#9d174d}
+
+/* ── status cells ───────────────────────────────────────────────────────── */
+.cell-wrap{border-radius:8px;padding:.45rem .6rem;font-size:.8rem}
+.status-matched  .cell-wrap{background:#f0fdf4}
+.status-partial  .cell-wrap{background:#fffbeb}
+.status-missing  .cell-wrap{background:#fff1f2}
+.badge{display:inline-block;border-radius:6px;padding:.15rem .55rem;
+  font-size:.72rem;font-weight:700;margin-bottom:.2rem}
+.badge-matched{background:#dcfce7;color:#15803d}
+.badge-partial{background:#fef9c3;color:#854d0e}
+.badge-missing{background:#fee2e2;color:#b91c1c}
+.badge-extra{background:#dbeafe;color:#1d4ed8}
+.matched-role{font-size:.78rem;color:#374151;margin-top:.15rem;line-height:1.3}
+.entity-tag{display:inline-block;margin-left:.4rem;background:#f1f5f9;color:#64748b;
+  border-radius:4px;padding:.05rem .4rem;font-size:.7rem}
+
+/* ── highlights ─────────────────────────────────────────────────────────── */
+.highlights-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem}
+.hl-card{display:flex;gap:.9rem;align-items:flex-start;background:#fff;
+  border-radius:12px;padding:1.1rem 1.25rem;
+  box-shadow:0 1px 6px rgba(0,0,0,.06);border:1px solid #e2e8f0;font-size:.84rem;line-height:1.55}
+.hl-icon{font-size:1.4rem;flex-shrink:0;margin-top:.05rem}
+.hl-warn{border-left:4px solid #f59e0b}
+.hl-info{border-left:4px solid #3b82f6}
+.hl-ok  {border-left:4px solid #22c55e}
+.hl-neutral{border-left:4px solid #94a3b8}
+
+/* ── extras table ───────────────────────────────────────────────────────── */
+.extras-table{width:100%;border-collapse:collapse;font-size:.84rem;background:#fff;
+  border-radius:10px;overflow:hidden;box-shadow:0 1px 8px rgba(0,0,0,.06)}
+.extras-table th{background:#1e4d8c;color:#fff;padding:.65rem 1rem;text-align:left;font-weight:600}
+.extras-table td{padding:.6rem 1rem;border-bottom:1px solid #f1f5f9}
+.extras-table tr:last-child td{border-bottom:none}
+.extras-table tr:hover td{background:#f8faff}
+
+/* ── legend ─────────────────────────────────────────────────────────────── */
+.legend-grid{display:flex;flex-wrap:wrap;gap:1rem}
+.legend-item{display:flex;align-items:center;gap:.6rem;font-size:.84rem}
+.legend-swatch{width:28px;height:16px;border-radius:4px}
+
+/* ── footer ─────────────────────────────────────────────────────────────── */
+.footer{text-align:center;color:#94a3b8;font-size:.78rem;margin-top:3rem;padding:1.5rem;
+  border-top:1px solid #e2e8f0}
+
+/* ── print ──────────────────────────────────────────────────────────────── */
+@media print{
+  .nav-bar,.filter-bar,.page-header{position:static}
+  .table-wrap{box-shadow:none;border:1px solid #ccc}
+  body{background:#fff}
+}
+</style>
+</head>
+<body>
+
+<!-- ── HEADER ─────────────────────────────────────────────────────────── -->
+<div class="page-header">
+  <h1>OBS Gap Analysis</h1>
+  <p>G-TRN A08001 · RSBU Project Team Organisation Standard vs Existing Project OBS</p>
+  <div class="header-meta">
+    <span class="meta-pill">Standard: G-TRN A08001 Rev.00 · April 2026</span>
+    <span class="meta-pill">Projects compared: 1</span>
+    <span class="meta-pill">Standard roles: 17</span>
+    <span class="meta-pill">Report date: 2026-06-17</span>
+  </div>
+</div>
+
+<!-- ── NAV ────────────────────────────────────────────────────────────── -->
+<nav class="nav-bar">
+  <a href="#scorecard" class="active">Scorecard</a>
+  <a href="#highlights">Key Findings</a>
+  <a href="#matrix">Gap Matrix</a>
+  <a href="#extras">Extra Roles</a>
+  <a href="#legend">Legend</a>
+</nav>
+
+<div class="main">
+
+<!-- ── SCORECARD ──────────────────────────────────────────────────────── -->
+<section id="scorecard">
+  <h2>Compliance Scorecard</h2>
+  <div class="scorecard-row">
+    
+<div class="scorecard-card" id="sc-r152b">
+  <div class="sc-header">
+    <div class="sc-title">R152B SA1 URS</div>
+    <div class="sc-sub">Urban Rail Singapore — Signalling System</div>
+    <div class="sc-meta">
+      <span class="entity-pill">HR Singapore</span><span class="entity-pill">HR France</span><span class="entity-pill">HR Canada</span>
+      <span class="lob-pill">SRS</span>
+    </div>
+  </div>
+  <div class="sc-body">
+    <div class="sc-donut">
+<svg width="88" height="88" viewBox="0 0 88 88">
+  <circle cx="44.0" cy="44.0" r="36.0" fill="none" stroke="#e5e7eb" stroke-width="10"/>
+  <circle cx="44.0" cy="44.0" r="36.0" fill="none" stroke="#22c55e" stroke-width="10" stroke-dasharray="212.89 13.31" stroke-dashoffset="-56.55" /><circle cx="44.0" cy="44.0" r="36.0" fill="none" stroke="#f59e0b" stroke-width="10" stroke-dasharray="13.31 212.89" stroke-dashoffset="-269.44" /><circle cx="44.0" cy="44.0" r="36.0" fill="none" stroke="#ef4444" stroke-width="10" stroke-dasharray="0.00 226.19" stroke-dashoffset="-282.74" />
+  <text x="44.0" y="49.0" text-anchor="middle" font-size="16" font-weight="700" fill="#1e3a5f">100%</text>
+</svg></div>
+    <div class="sc-stats">
+      <div class="stat-row"><span class="dot dot-green"></span><b>16</b> Matched</div>
+      <div class="stat-row"><span class="dot dot-amber"></span><b>1</b> Partial</div>
+      <div class="stat-row"><span class="dot dot-red"></span><b>0</b> Missing</div>
+    </div>
+  </div>
+  <div class="sc-bars">
+    <div class="bar-label-row">Mandatory roles covered</div>
+    
+<div class="bar-outer">
+  <div class="bar-inner" style="width:100%;background:#22c55e;">
+    <span class="bar-label">100%</span>
+  </div>
+</div>
+    <div class="bar-label-row" style="margin-top:6px">All standard roles covered</div>
+    
+<div class="bar-outer">
+  <div class="bar-inner" style="width:100%;background:#22c55e;">
+    <span class="bar-label">100%</span>
+  </div>
+</div>
+  </div>
+  <div class="sc-footer">
+    Risk Level <span class="risk-badge risk-low">LOW</span>
+  </div>
+</div>
+  </div>
+</section>
+
+<!-- ── HIGHLIGHTS ─────────────────────────────────────────────────────── -->
+<section id="highlights">
+  <h2>Key Findings &amp; Recommendations</h2>
+  
+<div class="highlights-grid">
+  <div class="hl-card hl-warn">
+    <div class="hl-icon">⚠</div>
+    <div>
+      <b>Multiple Project Managers</b><br>
+      R152B has Singapore PM, France PM, Canada PM as separate leads.
+      G-TRN standard requires <b>one single PM</b>; others should be structured as WPM/WPL.
+    </div>
+  </div>
+  <div class="hl-card hl-info">
+    <div class="hl-icon">ℹ</div>
+    <div>
+      <b>Role Naming Mismatch</b><br>
+      "Financial Controller" (OBS) → G-TRN calls this <b>"Project Controller"</b>.
+      Scope and accountability should be aligned to the new standard.
+    </div>
+  </div>
+  <div class="hl-card hl-info">
+    <div class="hl-icon">ℹ</div>
+    <div>
+      <b>Partial Match — Construction Manager</b><br>
+      "Deployment Manager" covers installation activities but is named differently.
+      Consider aligning title to G-TRN "Construction / Installation Manager".
+    </div>
+  </div>
+  <div class="hl-card hl-ok">
+    <div class="hl-icon">✔</div>
+    <div>
+      <b>Strong Core Coverage</b><br>
+      All 7 mandatory core roles are covered (100% mandatory compliance).
+      All SRS-specific roles have at least a partial match.
+    </div>
+  </div>
+  <div class="hl-card hl-neutral">
+    <div class="hl-icon">📋</div>
+    <div>
+      <b>Legacy GTS Roles Present</b><br>
+      IVVQ Manager, System Assurance Manager, PDA, DCS Lead are legacy GTS roles
+      with no direct G-TRN equivalent. Retain for now; map to WPM/WPL structure in future.
+    </div>
+  </div>
+  <div class="hl-card hl-neutral">
+    <div class="hl-icon">📋</div>
+    <div>
+      <b>VHC Roles — Not Applicable</b><br>
+      This is an SRS project. VHC-specific roles (RAM Manager, Test Manager, etc.)
+      are shown for completeness but are not required.
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ── GAP MATRIX ─────────────────────────────────────────────────────── -->
+<section id="matrix">
+  <h2>Gap Analysis Matrix</h2>
+  <div class="filter-bar">
+    <input type="text" id="roleSearch" placeholder="🔍  Search role name…" oninput="filterTable()"/>
+    <button class="filter-btn" onclick="filterLob('all',this)">All LoB</button>
+    <button class="filter-btn" onclick="filterLob('SRS+VHC',this)">Core</button>
+    <button class="filter-btn" onclick="filterLob('SRS',this)">SRS</button>
+    <button class="filter-btn" onclick="filterLob('VHC',this)">VHC</button>
+    <button class="filter-btn btn-missing" onclick="filterStatus('missing',this)">Show gaps only</button>
+    <button class="filter-btn btn-matched" onclick="filterStatus('all',this)">Show all</button>
+    <span class="filter-count" id="rowCount"></span>
+  </div>
+  <div class="table-wrap">
+    <table class="gap-table" id="gapTable">
+      <thead>
+        <tr>
+          <th style="width:52px">Abbr</th>
+          <th style="min-width:210px">G-TRN Standard Role</th>
+          <th>LoB</th>
+          <th>Mandatory</th>
+          <th class="proj-th" data-proj="r152b">  <div class="proj-name">R152B SA1 URS</div>  <div class="proj-sub">HR Singapore · HR France…</div></th>
+        </tr>
+      </thead>
+      <tbody id="gapBody">
+        <tr class="section-header"><td colspan="6">Core Roles — SRS &amp; VHC</td></tr>
+<tr class="role-row mandatory-row" data-lob="SRS+VHC">
+  <td class="abbr-cell">PM</td>
+  <td class="role-cell"><span class="mand-dot" title="Mandatory">●</span>Project Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-core">SRS+VHC</span></td>
+  <td class="mand-cell">Yes</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="Singapore PM (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">Singapore PM<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row mandatory-row" data-lob="SRS+VHC">
+  <td class="abbr-cell">PJC</td>
+  <td class="role-cell"><span class="mand-dot" title="Mandatory">●</span>Project Controller</td>
+  <td class="lob-cell"><span class="lob-tag lob-core">SRS+VHC</span></td>
+  <td class="mand-cell">Yes</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="Financial Controller (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">Financial Controller<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row mandatory-row" data-lob="SRS+VHC">
+  <td class="abbr-cell">PJP</td>
+  <td class="role-cell"><span class="mand-dot" title="Mandatory">●</span>Project Planner</td>
+  <td class="lob-cell"><span class="lob-tag lob-core">SRS+VHC</span></td>
+  <td class="mand-cell">Yes</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="Planner (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">Planner<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row mandatory-row" data-lob="SRS+VHC">
+  <td class="abbr-cell">PE</td>
+  <td class="role-cell"><span class="mand-dot" title="Mandatory">●</span>Project Engineer</td>
+  <td class="lob-cell"><span class="lob-tag lob-core">SRS+VHC</span></td>
+  <td class="mand-cell">Yes</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="Project Design Authority (PDA) (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">Project Design Authority (PDA)<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row mandatory-row" data-lob="SRS+VHC">
+  <td class="abbr-cell">CM</td>
+  <td class="role-cell"><span class="mand-dot" title="Mandatory">●</span>Contract Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-core">SRS+VHC</span></td>
+  <td class="mand-cell">Yes</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="Contract Manager (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">Contract Manager<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row mandatory-row" data-lob="SRS+VHC">
+  <td class="abbr-cell">PQM</td>
+  <td class="role-cell"><span class="mand-dot" title="Mandatory">●</span>Project Quality Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-core">SRS+VHC</span></td>
+  <td class="mand-cell">Yes</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="Quality Assurance Manager (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">Quality Assurance Manager<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row mandatory-row" data-lob="SRS+VHC">
+  <td class="abbr-cell">HSE</td>
+  <td class="role-cell"><span class="mand-dot" title="Mandatory">●</span>HSE Referent / HSE Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-core">SRS+VHC</span></td>
+  <td class="mand-cell">Yes</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="HSE Manager (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">HSE Manager<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="section-header"><td colspan="6">SRS-Specific Roles</td></tr>
+<tr class="role-row " data-lob="SRS">
+  <td class="abbr-cell">PRAMS</td>
+  <td class="role-cell">Project RAMS Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-srs">SRS</span></td>
+  <td class="mand-cell">—</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="RAMS Manager (HR France)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">RAMS Manager<span class="entity-tag">HR France</span></div></div></td>
+</tr>
+<tr class="role-row " data-lob="SRS">
+  <td class="abbr-cell">SCPM</td>
+  <td class="role-cell">Supply Chain & Procurement Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-srs">SRS</span></td>
+  <td class="mand-cell">—</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="Supply Chain Manager (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">Supply Chain Manager<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row " data-lob="SRS">
+  <td class="abbr-cell">CONSTR</td>
+  <td class="role-cell">Construction / Installation Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-srs">SRS</span></td>
+  <td class="mand-cell">—</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="Deployment Manager (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">Deployment Manager<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row " data-lob="SRS">
+  <td class="abbr-cell">COMM</td>
+  <td class="role-cell">Commissioning / T&C Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-srs">SRS</span></td>
+  <td class="mand-cell">—</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="T&C Manager (Test & Commissioning) (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">T&C Manager (Test & Commissioning)<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row " data-lob="SRS">
+  <td class="abbr-cell">WM</td>
+  <td class="role-cell">Warranty Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-srs">SRS</span></td>
+  <td class="mand-cell">—</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="Warranty (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">Warranty<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="section-header"><td colspan="6">VHC-Specific Roles</td></tr>
+<tr class="role-row " data-lob="VHC">
+  <td class="abbr-cell">RAM</td>
+  <td class="role-cell">Project RAM Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-vhc">VHC</span></td>
+  <td class="mand-cell">—</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="RAM Specialist (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">RAM Specialist<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row " data-lob="VHC">
+  <td class="abbr-cell">PSM</td>
+  <td class="role-cell">Project Safety Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-vhc">VHC</span></td>
+  <td class="mand-cell">—</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="Local System Assurance Manager (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">Local System Assurance Manager<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row " data-lob="VHC">
+  <td class="abbr-cell">PPM</td>
+  <td class="role-cell">Project Procurement Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-vhc">VHC</span></td>
+  <td class="mand-cell">—</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="Project Procurement Manager (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">Project Procurement Manager<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row " data-lob="VHC">
+  <td class="abbr-cell">TM</td>
+  <td class="role-cell">Test Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-vhc">VHC</span></td>
+  <td class="mand-cell">—</td>
+  <td class="status-cell" data-proj="r152b" data-status="partial"><div class="cell-wrap status-partial" title="Deployment Manager (HR Singapore)">  <span class="badge badge-partial">~ Partial</span>  <div class="matched-role">Deployment Manager<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+<tr class="role-row " data-lob="VHC">
+  <td class="abbr-cell">POM</td>
+  <td class="role-cell">Project Operations Manager</td>
+  <td class="lob-cell"><span class="lob-tag lob-vhc">VHC</span></td>
+  <td class="mand-cell">—</td>
+  <td class="status-cell" data-proj="r152b" data-status="matched"><div class="cell-wrap status-matched" title="HSE Manager (HR Singapore)">  <span class="badge badge-matched">✔ Matched</span>  <div class="matched-role">HSE Manager<span class="entity-tag">HR Singapore</span></div></div></td>
+</tr>
+
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ── EXTRA ROLES ─────────────────────────────────────────────────────── -->
+<section id="extras">
+  <h2>Extra Roles in Project OBS <small style="font-weight:400;font-size:.85rem;color:#64748b">(no direct G-TRN standard equivalent)</small></h2>
+  <p style="font-size:.84rem;color:#64748b;margin-bottom:1rem">
+    These roles exist in the project OBS but are not part of the G-TRN A08001 standard.
+    They may be legacy GTS roles, project-specific sub-roles, or support functions.
+    Review each and decide: map to a WPM/WPL in the standard hierarchy, or retain as project-tailored roles.
+  </p>
+  
+<h3 style="margin:1.5rem 0 .5rem;color:#1e3a5f;">R152B SA1 URS</h3>
+<table class="extras-table">
+  <thead><tr><th>#</th><th>Role in OBS</th><th>Entity</th><th>Classification</th></tr></thead>
+  <tbody><tr><td>1</td><td>Singapore Deputy PM</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>2</td><td>PMO</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>3</td><td>Interface Manager</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>4</td><td>Configuration Manager</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>5</td><td>Project Admin</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>6</td><td>Document Controller</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>7</td><td>System Engineering Manager</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>8</td><td>HW Design Lead</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>9</td><td>Senior Supply Chain Manager</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>10</td><td>Supply Chain Executive</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>11</td><td>PO Admin</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>12</td><td>Sourcing & Contracting</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>13</td><td>Supplier Performance</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>14</td><td>DLP Manager</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>15</td><td>DLP Engineer</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>16</td><td>Installation Lead</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>17</td><td>WSHO Officer</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>18</td><td>Environmental Control Officer</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>19</td><td>Technical Safety Specialist</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>20</td><td>DCS Lead</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>21</td><td>Software Engineers</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>22</td><td>IVAL Specialist (IV&V)</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>23</td><td>Safety Engineering Specialists</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>24</td><td>Chief Safety Architect</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>25</td><td>Safety Assurance Specialist</td><td><span class="entity-tag">HR Singapore</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>26</td><td>France PM</td><td><span class="entity-tag">HR France</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>27</td><td>PMO</td><td><span class="entity-tag">HR France</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>28</td><td>System Engineering & Software Manager</td><td><span class="entity-tag">HR France</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>29</td><td>Configuration & Documentation Manager</td><td><span class="entity-tag">HR France</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>30</td><td>PDA (Project Design Authority)</td><td><span class="entity-tag">HR France</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>31</td><td>PPM (Project Programme Manager)</td><td><span class="entity-tag">HR France</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>32</td><td>Technical Safety Specialist</td><td><span class="entity-tag">HR France</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>33</td><td>Canada PM</td><td><span class="entity-tag">HR Canada</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>34</td><td>PPM/PSCL (Programme & Supply Chain Lead)</td><td><span class="entity-tag">Programme</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>35</td><td>System Assurance Manager</td><td><span class="entity-tag">Programme</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>36</td><td>System Engineering Manager</td><td><span class="entity-tag">Programme</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>37</td><td>Project Safety Manager</td><td><span class="entity-tag">Programme</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>38</td><td>IVVQ Manager</td><td><span class="entity-tag">Programme</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr><tr><td>39</td><td>Project Design Authority</td><td><span class="entity-tag">Programme</span></td><td><span class="badge badge-extra">+ Extra / Legacy</span></td></tr></tbody>
+</table>
+</section>
+
+<!-- ── LEGEND ─────────────────────────────────────────────────────────── -->
+<section id="legend">
+  <h2>Legend</h2>
+  <div class="legend-grid">
+    <div class="legend-item"><div class="legend-swatch" style="background:#dcfce7;border:1px solid #bbf7d0"></div><b>✔ Matched</b> — Role name or keyword directly found in project OBS (score ≥ 90%)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#fef9c3;border:1px solid #fde68a"></div><b>~ Partial</b> — Similar role exists with a different name or scope — align to G-TRN naming</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#fee2e2;border:1px solid #fecaca"></div><b>✘ Missing</b> — Standard role has no equivalent in OBS — this is a GAP to be addressed</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#dbeafe;border:1px solid #bfdbfe"></div><b>+ Extra</b> — Role in project OBS with no G-TRN standard equivalent (legacy / project-specific)</div>
+    <div class="legend-item"><div class="legend-swatch" style="background:#fffdf0;border:1px solid #fde68a"></div><b>Yellow row</b> — Mandatory core role required for ALL projects (SRS and VHC)</div>
+  </div>
+</section>
+
+</div><!-- /main -->
+
+<div class="footer">
+  Generated by obs_html_report.py · Hitachi Rail — PMO · Report date: 2026-06-17
+</div>
+
+<script>
+// ── nav highlight on scroll ───────────────────────────────────────────────
+const sections = document.querySelectorAll('section[id]');
+const navLinks  = document.querySelectorAll('.nav-bar a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) current = s.id; });
+  navLinks.forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+  });
+}, {passive: true});
+
+// ── smooth nav ────────────────────────────────────────────────────────────
+navLinks.forEach(a => a.addEventListener('click', e => {
+  e.preventDefault();
+  document.querySelector(a.getAttribute('href'))
+    .scrollIntoView({behavior:'smooth', block:'start'});
+}));
+
+// ── table filtering ───────────────────────────────────────────────────────
+let activeStatus = 'all';
+let activeLob    = 'all';
+
+function filterTable() {
+  const q = document.getElementById('roleSearch').value.toLowerCase();
+  const rows = document.querySelectorAll('#gapBody tr.role-row');
+  let visible = 0;
+  rows.forEach(row => {
+    const roleName  = row.querySelector('.role-cell').textContent.toLowerCase();
+    const lob       = row.dataset.lob;
+    const cells     = row.querySelectorAll('td.status-cell');
+    const hasStatus = activeStatus === 'all'
+      || Array.from(cells).some(c => c.dataset.status === activeStatus);
+    const lobOk  = activeLob === 'all' || lob === activeLob;
+    const textOk = q === '' || roleName.includes(q);
+    const show   = lobOk && textOk && hasStatus;
+    row.classList.toggle('hidden', !show);
+    if (show) visible++;
+  });
+  document.getElementById('rowCount').textContent =
+    visible + ' role' + (visible !== 1 ? 's' : '') + ' shown';
+}
+
+function filterLob(lob, btn) {
+  activeLob = lob;
+  document.querySelectorAll('.filter-bar .filter-btn').forEach(b => {
+    if (['All LoB','Core','SRS','VHC'].includes(b.textContent)) b.classList.remove('active');
+  });
+  btn.classList.add('active');
+  filterTable();
+}
+
+function filterStatus(status, btn) {
+  activeStatus = status;
+  document.querySelectorAll('.filter-bar .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  filterTable();
+}
+
+// init count
+filterTable();
+</script>
+</body>
+</html>

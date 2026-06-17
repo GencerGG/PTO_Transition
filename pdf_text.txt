@@ -1,0 +1,2402 @@
+Total Pages: 54
+
+--- Page 1 ---
+ 
+Hitachi Rail ΓÇô Internal  
+Either current or outdated GBMS documents are recognized as part of RSBU official data, therefore their disclosure to Third Parties is allowed if it respects the rules for 
+confidentiality, disclosure, protection and labelling guidelines defined in G-MNL A12000. 
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+RSBU Project Team 
+Organisation 
+Transition Rules 
+G-TRN A08001 REV.00 
+ 
+ 
+ 
+  
+GBMS 2.0 
+COUNTRY 
+ALL 
+DOCUMENT TYPE LANGUAGE 
+TRANSITION RULES EN 
+
+--- Page 2 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 2/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+REVISION HISTORY 
+Rev. Date Author Approver Authorizer 
+Revision 
+Description 
+00 April 2026 G. Bausano, 
+G. Romito R. Castagna M. Rossi First Issue 
+      
+      
+      
+ 
+ 
+    
+ 
+DOCUMENTS TREE 
+L1. G-TRN A08001 RSBU Project Team Organisation Transition Rules 
+  
+
+--- Page 3 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 3/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+TABLE OF CONTENTS 
+1 SCOPE ..................................................................................................5 
+1.1 Purpose................................ ................................ ........................... 5 
+1.2 Applicability ................................ ................................ ..................... 5 
+1.3 Effective Date ................................ ................................ .................. 5 
+2 TERMS ..................................................................................................6 
+2.1 Acronyms and Abbreviations ................................ ............................... 6 
+2.2 Definitions ................................ ................................ ....................... 7 
+3 REFERENCES ........................................................................................9 
+3.1 Hitachi Corporate Reference Documents ................................ ............... 9 
+3.2 Management Systems Reference Documents ................................ ......... 9 
+3.3 Applicable Standards and Regulations ................................ .................. 9 
+4 TRANSITION RULES ........................................................................... 10 
+4.1 Organisational Principles ................................ ................................ .. 10 
+4.1.1 Organisational Key Dimension ................................ ..................... 10 
+4.1.2 Functional Organisation ................................ .............................. 10 
+4.1.3 Bidding Team Operating Model and Project Execution Team Operating 
+Model 10 
+4.1.4 Work Breakdown Structure and Accountability Model....................... 11 
+4.1.5 Issue Resolution and Escalation Principles ................................ ..... 13 
+4.1.6 Team Tailoring and Governance ................................ ................... 13 
+4.2 Bidding Team ................................ ................................ ................. 14 
+4.2.1 Bidding Team ΓÇô Standard Principles ................................ .............. 14 
+4.2.2 Bidding Team ΓÇô Roles specific to the Bidding Phase ......................... 15 
+4.2.2.1 Capture Leader ................................ ................................ .... 15 
+4.2.2.2 Bid Manager ................................ ................................ ........ 16 
+4.2.2.3 Qualification Specialist ................................ .......................... 18 
+4.2.3 Bidding Team ΓÇô Roles specific to the Bidding Phase [SRS] ................ 18 
+4.2.3.1 Bid Procurement Manager ................................ ..................... 18 
+4.2.4 Bidding Team ΓÇô Roles applicable in VHC and SRS ............................ 19 
+4.2.4.1 Project Manager ................................ ................................ ... 19 
+4.2.4.2 Bid Controller ................................ ................................ ...... 20 
+4.2.4.3 Project Planner ................................ ................................ .... 21 
+4.2.4.4 Project Engineer ................................ ................................ .. 22 
+4.2.4.5 Contract Manager ................................ ................................  23 
+4.2.4.6 Project Quality Manager ................................ ........................ 24 
+4.2.4.7 HSE Referent ................................ ................................ ...... 24 
+4.2.5 Bidding Team ΓÇô Roles applicable in SRS ................................ ........ 25 
+4.2.5.1 Project RAMS Manager ................................ .......................... 25 
+4.2.5.2 Supply Chain and Procurement Manager ................................ .. 26 
+4.2.5.3 Construction Manager ................................
+
+--- Page 4 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 4/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+4.2.5.5 Warranty Manager [SRS] ................................ ...................... 28 
+4.2.6 Bidding Team ΓÇô Roles applicable in VHC ................................ ........ 28 
+4.2.6.1 Project RAM Manager ................................ ............................ 28 
+4.2.6.2 Project Safety Manager ................................ ......................... 29 
+4.2.6.3 Project Procurement Manager ................................ ................ 29 
+4.2.6.4 Test Manager ................................ ................................ ...... 30 
+4.2.6.5 Project Operations Manager ................................ ................... 31 
+4.2.6.6 Commissioning Manager [VHC] ................................ .............. 32 
+4.2.6.7 Warranty Manager [VHC] ................................ ...................... 32 
+4.3 Project Execution Team ................................ ................................ ... 33 
+4.3.1 Project Execution Team ΓÇô Standard Principles ................................  33 
+4.3.2 Project Execution Team ΓÇô Roles applicable to SRS and VHC .............. 34 
+4.3.2.1 Project Manager ................................ ................................ ... 34 
+4.3.2.2 Project Controller ................................ ................................ . 35 
+4.3.2.3 Project Planner ................................ ................................ .... 36 
+4.3.2.4 Project Engineer ................................ ................................ .. 37 
+4.3.2.5 Contract Manager ................................ ................................  40 
+4.3.2.6 Project Quality Manager ................................ ........................ 41 
+4.3.2.7 HSE Referent ................................ ................................ ...... 42 
+4.3.3 Project Execution Team ΓÇô Roles applicable to SRS .......................... 43 
+4.3.3.1 Project RAMS Manager ................................ .......................... 43 
+4.3.3.2 Supply Chain and Procurement Manager ................................ .. 44 
+4.3.3.3 Construction Manager ................................ ........................... 45 
+4.3.3.4 Commissioning Manager [SRS]................................ ............... 46 
+4.3.3.5 Warranty Manager [SRS] ................................ ...................... 47 
+4.3.4 Project Execution Team ΓÇô Roles applicable to VHC .......................... 47 
+4.3.4.1 Project RAM Manager ................................ ............................ 47 
+4.3.4.2 Project Safety Manager ................................ ......................... 48 
+4.3.4.3 Project Procurement Manager ................................ ................ 49 
+4.3.4.4 Test Manager ................................ ................................ ...... 49 
+4.3.4.5 Project Operations Manager ................................ ................... 50 
+4.3.4.6 Commissioning Manager [VHC] ................................ .............. 51 
+4.3.4.7 Warranty Manager [VHC] ................................ ...................... 52 
+5 TRANSITION RULES - SUMMARY ........................................................ 53 
+6 COMPARISON SUMMARY .................................................................... 54 
+   
+  
+
+--- Page 5 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 5/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+1 SCOPE 
+1.1 Purpose 
+The purpose of this document is to establish guidelines and describe critical roles 
+supporting the Bidding and Project execution phases. During the transition period 
+(see. ┬º1.3 Effective Date), this document ensures consistency and compliance on how 
+the Railway Systems Business Unit (hereinafter RSBU or the Company) allocates 
+responsibilities and functional relationships for key roles within the teams operating 
+in Bidding and Project execution phases. It also defines the relationship between the 
+functional and team organisations.  
+1.2 Applicability 
+Refer to the table below for the applicability of this document. 
+Legal Entities  All RSBU Legal Entities 
+Line of Business 
+(LoB)  
+Line of Business (LoB) Signalling and Rail Solutions (SRS) and 
+Line of Business Vehicles (VHC) , regarding a single LoB 
+bid/project 
+Project/Bid 
+Type/Criteria 
+Customer Projects in Bidding and Project Execution 
+Additional Criteria 
+and Notes 
+This document does not apply to current Hitachi Rail Japan 
+(HRJ) business tenders, bids, and projects because these are 
+managed according to local specific roles.  
+This document does not apply to internal projects (e.g. R&D, 
+Development and Innovation Projects). 
+ 
+For bids currently in progress and project currently in execution 
+refer to ┬º5 
+1.3 Effective Date  
+This present document maps the guideline during the transition period. It is valid as 
+soon as it published and until superseded by the publication of a fully harmonised 
+Project Team Organisation MNL.  
+  
+
+--- Page 6 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 6/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+2 TERMS 
+2.1 Acronyms and Abbreviations  
+BEP BIM Execution Plan  
+BIM Building Information Modelling 
+BM Bid Manager 
+CCB Change Control Boards 
+CI Continuous Improvement 
+DDQ Design, Develop and Qualify 
+EAC Estimate At Completion 
+FAI First Article Inspection  
+FAS&T Finance, Accounting, Services & Treasury 
+FAT Factory Acceptance Test 
+FRACAS Failure Reporting, Analysis, and Corrective Action System 
+FTE Full Time Equivalent 
+HRJ Hitachi Rail Japan 
+HSE Health, Safety, and Environment 
+IEC International Electrotechnical Commission 
+JV Joint Venture 
+KPI Key Performance Indicator  
+LCC Life Cycle Costs 
+LoB Line of Business 
+MPR Monthly Project Review 
+MWPM Main Work Package Manager 
+NPV Net Present Value 
+O&M Operation and Maintenance  
+PE Project Engineer 
+P&L Profit and Loss 
+PJC Project Controller 
+PJP Project Planner 
+
+--- Page 7 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 7/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+PM Project Manager 
+POM Project Operations Manager 
+PQM Project Quality Manager 
+PQMP Project Quality Management Plan 
+PPP Public-Private Partnership 
+PTO Project Team Organisation 
+QA Quality Assurance 
+QPR Quarterly Project Review 
+RAM Reliability, Availability and Maintainability 
+RAMS Reliability, Availability, Maintainability, and Safety 
+RFI Requestion for Information 
+RFQ Request for Quotation 
+S&M Service and Maintenance 
+SCPM Supply Chain and Procurement Manager 
+SLA Service Level Agreement 
+SRAC Safety Related Application Conditions 
+SRS Signalling and Rail Solutions 
+SoW Scope of Work 
+T&Cs Terms and Conditions 
+V&V Verification and Validation  
+VHC Vehicles  
+WOB Workload Optimisation and Balancing 
+WP Work Package 
+WPL Work Package Leader 
+WPM Work Package Manager 
+ 
+2.2 Definitions  
+Commissioning Phase before handover to a Customer, in which a product is 
+final tested under operational conditions to verify it functions 
+according to its specifications (as per ISO 22163:2023). 
+
+--- Page 8 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 8/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+Customer Person or organisation that could or does receive a product or a 
+service that is intended for or required by this person or 
+organisation (as per ISO 9000:2015). 
+Key Initiatives  
+(not applicable 
+to VHC LoB) 
+Key initiatives represent Turnkey/PPP Projects (with or without 
+Partnerships with other Companies) with relevant System 
+Integration and Interface Management content. Other major 
+projects can be defined as Key Initiative time by time in 
+agreement with the relevant Line of Business 
+Maintenance Combination of all technical and management actions intended 
+to retain an item in, or restore it to a state in which it can perform 
+as required (as per ISO 22163:2023). 
+Organisation Person or group of people that has its own functions with 
+responsibilities, authorities and relationships to achieve its 
+objectives (as per ISO 9000:2015, ISO 14001:2015, ISO 
+45001:2018). 
+Project Unique process, consisting of a set of coordinated and controlled 
+activities with start and finish dates, undertaken to achieve an 
+objective conforming to specific requirements, including the 
+constraints of time, cost and resources (as per ISO 9000:2015). 
+Project 
+management 
+Planning, organizing, monitoring, controlling and reporting of all 
+aspects of a project, and the motivation of all those involved in 
+it to achieve the project objectives (as per ISO 9000:2015). 
+Provider Organisation that provides a product or a service ( as per ISO 
+9000:2015).  
+Supply Chain System of organi sations, people, activities, information and 
+resources involved in transforming materials and knowledge in a 
+product or a service for the customer (as per ISO 22163:2023) 
+Technical 
+Authority 
+The Technical Authority is a senior technical individual who 
+analyses, challenges, validates and approves the technical 
+solution and the technical delivery process proposed for Bids or 
+Projects, ensuring technical risks have been minimized with 
+proper mitigation plans through the critical phases from bid to 
+completion of project execution 
+ 
+  
+
+--- Page 9 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 9/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+3 REFERENCES 
+3.1 Hitachi Corporate Reference Documents 
+Unless otherwise noted, references apply to the latest approved revision. 
+- - 
+ 
+3.2 Management Systems Reference Documents 
+Unless otherwise noted, references apply to the latest approved revision. 
+- - 
+ 
+3.3 Applicable Standards and Regulations 
+ISO 9000:2015 Quality management systems - Fundamentals and Vocabulary 
+ISO 14001:2015 Environmental management systems ΓÇô Requirements with 
+guidance for use  
+ISO 45001:2018 Occupational health and safety management systems ΓÇô 
+Requirements with guidance for use 
+ISO 22163:2023 Railway applications ΓÇö Railway quality management system 
+ΓÇö ISO 9001:2015 and specific requirements for application in 
+the railway sector 
+  
+
+--- Page 10 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 10/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+4 TRANSITION RULES  
+4.1 Organisational Principles 
+4.1.1  Organisational Key Dimension  
+For the purpose of Bidding and Project execution, RSBU operates through a two -
+dimensional matrix structure, combining: 
+ΓÇó the functional organisation: grouping specific organisational functions with job 
+specific accountabilities and competences; 
+ΓÇó the bidding team organi sation or the project team organisation: aimed at 
+ensuring effective and efficient delivery of Bidding and Project execution 
+phases. 
+4.1.2  Functional Organisation  
+The functional organisation is mapped in RSBU Organisational Chart ( published on 
+COSMO/COSMIC).  
+The functional organisation ensures: 
+ΓÇó standardisation of processes, products (where applicable) and competences by 
+ensuring the use of common procedures and tools; 
+ΓÇó resources staffing on bids and projects; 
+ΓÇó workload and capacity planning; 
+ΓÇó development of the resourceΓÇÖs competences; 
+ΓÇó capitalisation and sharing of the know-how. 
+The details of the key accountabilities assigned to the CompanyΓÇÖs organisational 
+functions are described in Roles and Mandates/functional job descriptions. 
+The operative bridge between the functional organisation and the business delivery is 
+the Project Team Organisation ( PTO), established to achieve specific bid or project 
+objectives and in charge of the bidding or project activities. 
+4.1.3  Bidding Team Operating Model and Project Execution Team 
+Operating Model  
+Bidding Teams and Project Teams are the key pillars of RSBU delivery processes. 
+Collaboration, cross-functional resourcing and a process approach are the key success 
+factors in the deployment of RSBUΓÇÖs business strategy, as no individual or single 
+organisational function holds all the required levers needed to achieve the business 
+objectives. 
+Integrated project teams effectively staffed with required skills, competences and 
+level of resourcing are the key drivers needed to achieve Company goals. 
+
+--- Page 11 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 11/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+Each Bidding or Project Team is led by a single accountable leader, respectively the 
+Bid Manager (BM) during the bidding phase and the Project Manager (PM) during the 
+project execution phase, who holds overall accountability. 
+The BM/PM is ultimately accountable for the staffing of the overall team organisation, 
+with their direct reporting team members (such as PE) responsible for the staffing of 
+their subordinate project structure. Based on Scope of Work (SoW) and requirements, 
+the BM/PM is accountable for providing staffing requirements to the functional 
+organisation. The functional organisation is accountable for allocating the most 
+appropriate profiles, to be agreed with the BM/PM. 
+Depending on the Scope of Work (SoW) and requirements highlighted by the Bid 
+Manager or Project Manager and communicated to the relevant  functional 
+organisation, the direct reporting Team Members are proposed by the functional 
+managers from the appropriate functions within the Organisation and agreed with the 
+Bid/Project Manager . The functional organisation analyses the Bid/Project 
+requirements with the Bid or Project Manager and allocates the most appropriate 
+profiles, ensuring correct allocation of skills and workload.  
+Whilst Team Members are identified from their relevant functions, they are managed 
+by the Bid Manager or Project Manager (potentially via other managers within the Bid 
+or Project), and are accountable for the delivery of their SoW, including all associated 
+responsibilities in term of scope, schedule, cost, quality and risks relevant to Bidding 
+or Project objectives. 
+Team Members are required to conduct their activities in accordance with relevant 
+RSBU processes. 
+4.1.4  Work Breakdown Structure and Accountability Model  
+The Bid or Project SoW is structured through a Work Breakdown Structure (WBS), a 
+hierarchical decomposition of a project into smaller, manageable components called 
+work packages. The levels of breakdown may vary on the nature and complexity of 
+the Bid or Project, with the lowest level defined as a Work Package (representing the 
+level at which scope, schedule, cost, deliverables and performance can be planned, 
+estimated, monitored, controlled, and delivered). 
+The structure of the Bidding or Project team will reflect the structure of the WBS, with 
+four levels of role envisioned: 
+1. Bid/Project Manager: Overall accountable for the Bid or Project delivery  
+2. Main Work Package Manager (MWPM): Level 1 reporting to the Bid or 
+Project Manager, accountable for the first level of breakdown of the WBS (often 
+related to an overall function such as Engineering) 
+3. Work Package Manager (WPM):  Level 2 or lower to the Bid or Project 
+Manager, reporting to a MWPM or another WPM with accountability for a section 
+of the WBS and the management of subordinate work packages 
+
+--- Page 12 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 12/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+4. Work Package Leader (WPL): Level 2 or lower to the Bid or Project Manager, 
+reporting to a MWPM or WPM and accountable for the delivery of a Work 
+Package, the lowest level of the WBS. 
+Depending on the complexity of the WBS, this hierarchy may collapse into fewer 
+layers.  
+The current PTO document covers the Bid/Project Manager, and the Main Work 
+Package Manager roles. Following a structured approach, it will continue to be further  
+regulated with  additional standard WPM and WPL roles in future document 
+publications, driven by the significance of the roles and the detail of the WBS. 
+ 
+Figure 1: Example of team structure 
+Each MWPM/WPM/WPL is accountable for defining and managing the required WP 
+activities to comply with the requirements, including safety, quality, cost estimation 
+and monitoring, as well as the scheduling and performance control of an assigned 
+pool of resources, aligned to the bid or project team common schedule . In case of 
+issues, they promote an appropriate escalation. 
+The functional organisation to which the MWPM, WPM, and WPLs belong are 
+accountable for:  
+ΓÇó providing competent resources and standard methods and tools to the teams; 
+
+
+--- Page 13 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 13/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó ensuring the implementation across bids and projects of standard and efficient 
+solutions (procedural and technical), in compliance with the strategic 
+guidelines; 
+ΓÇó ensuring adherence to quality, RSBU processes and schedule targets for the 
+deliverables produced by resources belonging to their organisation, and 
+assisting their team members , as necessary, in identifying solutions to 
+eliminate or reduce deviations and to improve performance; 
+ΓÇó in addition, the managers of the functional organisations are responsible for 
+approving the deliverables produced within their assigned scope in terms of 
+quality and process, whether submitted directly to the Bid or Project Manager 
+or through the relevant Main Work Package Manager; 
+ΓÇó in conclusion, managers of the functional organisation remain accountable for 
+the technical integrity, quality and adequacy of the deliverables produced 
+within their scope throughout the bid or project lifecycle, including at key 
+milestones and critical events where functional expertise  and oversight are 
+required, in co-accountability with their respective MWPMs, WPMs and WPLs; 
+ΓÇó in the LoB Vehicles, managers of the functional organisation, with their 
+respective MWPMs, WPMs, and WPLs, are additionally co-accountable on costs. 
+4.1.5  Issue Resolution and Escalation Principles  
+The Bid or Project Manager and the MWPMs, WPMs, and WPLs shall endeavour to 
+resolve bidding or project execution issues internally before escalating them to the 
+relevant functional organisation. Issues shall be escalated to the relevant functional 
+organisation, as appropriate, when the required know-how is not available at Bidding 
+or Project execution level, or when there is a reasonable risk of the team being unable 
+to maintain control of delivery in line with targets.  
+In order to ensure seamless transition between the bidding and the project execution 
+phase, the team should pursue continuity of individuals allocated to key roles (where 
+possible). Additionally, Bidding team members should strongly support the Project 
+Team during the initial phases of Project execution (PJM-01 Project Launch and PJM-
+02 Project Planning) in alignment with the relevant functional organisation.  
+Where alignment between the functional and project organisation (regarding staffing 
+or tailoring) cannot be achieved in due time, the matter shall be escalated to the 
+appropriate management level for resolution. 
+4.1.6  Team Tailoring and Governance  
+The Team Organisations described in this document represent the standard 
+composition of the Bid or Project team and shall apply as the reference model. 
+It is the accountability of the Bid/Project Manager to ensure the alignment of the 
+Bid/Project Team Organisation with the standard roles described in this document.  
+Only where formally justified by specific characteristics, contract requirements, or 
+requirements of the Bid, Project, or Business, the Bid or Project Manager may tailor 
+
+--- Page 14 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 14/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+the Bid or Project Team organisation  composition based on effectiveness and 
+efficiency criteria in alignment with the functional organisation.  
+4.2 Bidding Team 
+4.2.1  Bidding Team ΓÇô Standard Principles  
+The Bidding Team  is the inter -functional organisational structure accountable for 
+developing and managing the bid, under the leadership of the Bid Manager, until its 
+closing.  
+A Bidding Team is established to pursue new orders whenever the RSBU takes part in 
+a commercial opportunity, such as public tenders, unsolicited proposals, or direct 
+negotiations, following a ΓÇÿGoΓÇÖ decision and requiring a full bidding process. 
+ 
+Bidding Team Members are staffed by the relevant functional organisation based on 
+the scope of work and the specific tender requirements and competences requested 
+by the Bid Manager (BM). The composition of the Bidding Team shall be defined and 
+aligned with the structure outlined in this document and may be tailored ΓÇöwhere 
+justified by bid characteristics, customer requirements or specific requirementsΓÇöin 
+alignment with the functional organisation. 
+Although the Bidding Team is expected to be staffed in accordance with this 
+document, due to the variety in bid size and complexity, the following principles may 
+be taken in consideration for tailoring: 
+ΓÇó A Bidding Team role does not necessarily correspond to 1 Full Time Equivalent 
+(FTE). Based on workload and complexity, the Bid Manager and the relevant 
+functional organisation determine the appropriate FTE allocation  
+ΓÇó In certain cases (e.g., small and less complex bids with highly experienced 
+professionals), one individual may cover more than one role  (either fully or 
+partially), ensuring appropriate reporting within the functional organisation.  
+As key principles: 
+ΓÇó A single Capture Leader is appointed for each Opportunity and is accountable 
+for its commercial and strategic success, working closely with the Bid Manager 
+throughout bid preparation. 
+ΓÇó A single Bid Manager is appointed for each bid and leads the Bidding Team 
+across all business segments, regions and legal entities, holding full end-to-end 
+accountability for the bid, ensuring integrated technical, commercial, financial 
+and governance robustness. 
+ΓÇó A single Project Engineer acts as the sole technical lead on the bid solution, 
+ensuring end-to-end technical coherence, integrity and feasibility. 
+ΓÇó The BM and PE can be supported by Level -2 Bid Team roles in line with the 
+WBS (e.g. WPM, WPL), subordinate within the bid hierarchy. 
+
+--- Page 15 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 15/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó All operational Bid Team Members are accountable for executing their assigned 
+scope within the Bid Team, while remaining functionally connected to their 
+respective functional line and operationally managed by the Bid Manager. 
+Each Bidding Team Member is required to: 
+ΓÇó perform the assigned activities on budget, quality and on time, and in line with 
+Safety >> Quality > Delivery > Cost (S>>Q>D>C) approach 
+ΓÇó analyse the bidding requirements in order to identify and structure the required 
+Work Packages in accordance with the project WBS 
+ΓÇó provide the Bid Manager with an estimate of hours, costs and requirements 
+related to the execution of the activities within the assigned SoW/WPs 
+ΓÇó provide the Project Manager with an evaluation of the risks related to the 
+assigned SoW/WPs (as applicable) 
+ΓÇó provide the Bid Manager with the related work schedule for the project delivery 
+(where applicable) 
+ΓÇó issue documentation as per the Deliverables List provided by the Bid Manager 
+(where applicable) 
+ΓÇó contribute to risk and opportunity analysis 
+ΓÇó once the project is awarded, and under the coordination of the Bid Manager, 
+hand over the assigned activities to the relevant Project Team Members where 
+these differ from the Bidding Team, to ensure continuity into Project Launch 
+and Planning. 
+The Bidding Team includes roles that are only found within the Bidding stage (such 
+as Capture Leader), roles that are found within both the Bidding and Project execution 
+stages with different accountabilities (such as Project Engineer) and roles that are 
+specific to individual Lines of Business (such as SRS Supply Chain and Procurement 
+Manager). 
+4.2.2  Bidding Team ΓÇô Roles specific to the Bidding Phase  
+4.2.2.1 Capture Leader 
+The Capture Leader is the strategic and commercial leader of the Bids. The Capture 
+Leader role is performed, as required, by the Sales Manager or by other roles 
+designated for the specific bid. In the case of VHC, the role of Capture Leader can be 
+executed by the Bid Manager. 
+The Capture Leader is fully accountable end-to end for the overall success of the 
+Bid - from defining the capture strategy, through securing internal approvals, to 
+submitting the Offer, and then managing negotiations and finalising the contract.  
+In LoB SRS, the Capture Leader is accountable, with the support of the Bid Manager, 
+for the internal approval process according to the RSBU governance rules.  
+
+--- Page 16 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 16/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+In LoB VHC, if the Capture Leader is a separate role from the Bid Manager, the Bid 
+Manager is accountable for managing internal approval with the support of the 
+Capture Leader.  
+During the bid preparation, the Capture Leader  is accountable for setting the 
+guidelines for the Bid Preparation, including the definition of Strategic goals (e.g. 
+understanding customer expectations, managing relationships with third parties, 
+identifying potential partnerships or key external providers , and addressing any 
+specific local regulations, liaising with the Contract Manager as needed), target price 
+and key winning factors. 
+The Capture Leader manages the interface with the Customer, directly involving 
+team members whenever necessary. They act as the primary interface towards the 
+Customer, with the support of the relevant Market organisation as well as of the LoB 
+Sales organisation and other functions as applicable.  
+The Capture Leader remains accountable for the overall Bid, whilst the Bid Manag er 
+is accountable for the preparation and consolidation of the Bid according to the RSBU 
+governance rules.  
+Following the approval and authorization stages, and based on the mandate received, 
+the Capture Leader is responsible for leading the negotiations and for finalising the 
+best possible contract for RSBU. 
+4.2.2.2 Bid Manager  
+The Bid Manager (BM) is accountable for the end-to-end preparation of the technical 
+and economic proposal (including Price, Gross Margin  and associated financial 
+parameters) and schedule, ensuring the integrity and consistency of the proposed 
+cross-functional solution. As the inter-functional leader, the Bid Manager coordinates 
+the bidding team (composed of the representatives of all contributing functions) and 
+steers the entire process through to its closure.  
+The Bid Manager: 
+ΓÇó ensures that each contributing function (including Engineering, RAM & 
+Safety/RAMS, Quality, Manufacturing, Procurement, Supply Chain, Contract 
+Management, Finance, Legal, Risk Management, Compliance, Sustainability 
+and other relevant Support Functions) formally nominates a representative 
+within the Bidding Team, responsible for taking ownership and accountabili ty 
+of the relevant portion of the Scope of Work; 
+ΓÇó provides all the Team Members with the complete customer solicitation 
+documents (Tender, RFP, RFI, Request for Offer, etc) including the bidding SoW 
+and expected outputs (e.g. Deliverables list), and the complete set of customer 
+requirements ensuring that all requirements are properly captured and 
+integrated into the bid execution framework; 
+
+--- Page 17 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 17/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó provides to the bidding team all the relevant information necessary for the 
+definition of the procurement strategy and the Vendor List. 
+ΓÇó coordinates all Team Members to ensure structural coherence and integration 
+of the proposed complete solution. 
+ΓÇó leads the consolidation of cost estimations and ensures validation of the project 
+whole life costs evaluation, financial assumptions and contingencies, in 
+coordination with the Bid Controller and Project Manager; 
+ΓÇó For Key Initiatives , Vehicles Bids,  and other complex bids, where early 
+execution-driven structuring is required due to execution complexity and long-
+term delivery exposure, Project Manager leads the identification, assessment, 
+and consolidation of risks and opportunities supported by the Bid Manager. The 
+Bid Manager is accountable for coordination and formal integration of the 
+resulting risk and opportunity profile into the Bid baseline, ensuring full 
+traceability, consistency and alignment with governance requirements. 
+ΓÇó For all bids other than Key Initiatives, Vehicles Bids, and other complex bids, 
+where complexity or long -term delivery exposure are limited (including 
+standard bids), the Bid Manager leads the identification, assessment and 
+consolidation of risks and opportunities. In these cases, the Bid Manager 
+ensures that all relevant MWPMs, WPMs and WPLs formally identify and assess 
+risks within their assigned scope and consolidates them at Bid level. Bid 
+Manager formally consolidates and integrates the resulting risk profile into the 
+Bid baseline, ensuring full traceability, consistency and alignment with 
+governance requirements. 
+ΓÇó collects all the information and contributions from each Bidding Team members 
+in order to consolidate all required documentation to ensure compliance with, 
+and approval under, RSBU Governance. 
+ΓÇó consolidates all bid documentation and ensures stage readiness and compliance 
+with authorization rules and internal governance processes. 
+ΓÇó secures the integrity and completeness of the bid baseline - technical, financial 
+and scheduling, including whole life costs estimates, assumptions, revenues, 
+margins, Net Present Value (NPV) risks, contingencies and work schedule. 
+ΓÇó prepares a structured and traceable handover package to ensure seamless 
+transition to the Project Manager enabling the final review and proper handover 
+from bidding to the project execution stage. 
+In case of award, the Bid Manager is accountable for the complete handover to 
+the Project Manager, and project team (as required ) of all bid relevant data 
+(contractual data and baseline elements, assumption and technical requirements, 
+economics evaluations, ΓÇª) safeguarding continuity, integrity and accountability 
+from bid to project.  
+ 
+ 
+
+--- Page 18 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 18/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+4.2.2.3 Qualification Specialist 
+The Qualification Specialist: 
+ΓÇó ensures the definition of the list and the collection of qualification documents 
+to be prepared for the submission of assigned prequalification/bids; 
+ΓÇó ensures the submission of the prequalification package (or qualification 
+documentation), in collaboration with the Capture Leader and, when needed, the 
+Bid Manager; 
+ΓÇó ensures the implementation of improvement actions and the maintenance of 
+the database of references and other relevant qualification documentation; 
+ΓÇó supports the Capture Leader and the Bid Manager in the responding to 
+clarification requests to/ and from the Customer, related to qualification matters 
+for the assigned bid. 
+4.2.3  Bidding Team ΓÇô Roles specific to the Bidding Phase  [SRS]  
+4.2.3.1 Bid Procurement Manager 
+Tailoring or Adjustments:  
+These tailoring principles only apply in the case of SRS projects. 
+Depending on the complexity of the initiative, the Bid Manager may appoint a Bid 
+Procurement Manager  to support procurement -related activities within the Bid 
+Team.  
+When appointed, the Bid Procurement Manager leads and coordinates bid -phase 
+procurement activities, working with Category Manager and Buyers who manage the 
+sourcing and contracting of individual work packages. 
+All bid-phase procurement activities are performed in close collaboration with Supply 
+Chain and Procurement Managers [SRS] (SCPM), ensuring alignment with execution 
+strategy, cost structure, and supply chain feasibility. Project execution phase 
+responsibilities remain with the Supply Chain and Procurement organisation. 
+Role Purpose:  
+Leads and is accountable for procurement activities during the bidding phase, the Bid 
+Procurement Manager coordinates bid -phase procurement activities with Category 
+Managers and Buyers, ensuring that procurement strategy, external costs, supplier 
+engagement, and risks are aligned with the Scope of Work, tec hnical solution, 
+schedule, and contractual requirements, enabling a competitive and executable bid. 
+Main Responsibilities: 
+ΓÇó leads and coordinate all procurement activities during the bid phase 
+ΓÇó ensures Category Managers define the procurement strategy, aligned with bid 
+objectives, procurement rules, and execution feasibility 
+
+--- Page 19 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 19/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó ensures external cost estimates are accurate, complete, and aligned with Scope 
+of Work and contractual requirements 
+ΓÇó provides procurement inputs to the bid, including costs, schedules, risks, and 
+assumptions, ensuring that are properly documented  
+ΓÇó ensures a structured evaluation of procurement-related risks 
+ΓÇó ensures traceability and a compliant handover to the execution phase 
+Key Tasks 
+ΓÇó coordinates Category Managers to define the procurement strategy and 
+preliminary vendor list 
+ΓÇó ensures consistency between procurement costs and bid assumptions 
+ΓÇó ensures Category Managers validate supplier offers, assumptions, and 
+commercial conditions, including RFQs, clarifications, and bid -phase 
+negotiations 
+ΓÇó involves Supply Chain and Procurement Manager in identifying long-lead items, 
+assessing procurement schedule impacts, and estimating additional 
+procurement-related costs (e.g. logistics, spares, duties, escalation) 
+ΓÇó coordinates the collection of procurement risks for inclusion in the bid risk 
+register 
+ΓÇó ensures Category Managers perform contractual flow-down to suppliers 
+ΓÇó coordinates the documentation of procurement scope, assumptions, and 
+commitments, and provide the Bid Manager with a comprehensive Procurement 
+Scope of Work including detailed cost information. 
+ΓÇó shares timely the selected procurement strategy with SCPM to allow proper 
+internal-cost estimate for the execution phase. 
+4.2.4  Bidding Team ΓÇô Roles applicable in VHC and SRS  
+4.2.4.1 Project Manager 
+Tailoring or Adjustments: Only one Project Manager (PM) is foreseen within the 
+LoB (work split between LE or Segments will use a WPL structure). For O&M bids this 
+role is covered by O&M Program Manager, for S&M standalone bids this role will be 
+referred to as S&M Program Manager  
+Main Responsibilities: To guarantee continuity between Bid ding and  Execution, 
+where possible, the execution PM should be nominated during the bid phase, unless 
+the bid does not have the appropriate scale or relevance  (as defined by the Bid 
+Manager) to justify the appointment, working on the bid under the leadership of the 
+Bid Manager. Responsibility for the bid remains with the Bid Manager, but the PM 
+supports analysis and preparation to smooth the transition into project execution. The 
+PM supports the Bid Manager to ensure the proposed solution is executable, planned, 
+costed and risk-assessed for successful delivery and prepared for a structured 
+handover.   
+Key Tasks: 
+
+--- Page 20 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 20/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó Provides the Bid Manager with hour and cost estimation, as well as associated 
+assumptions and deliverables for all relevant Project Management and Project 
+Management support activities 
+ΓÇó Analyses tender specifications (particularly the contractual requirement) from 
+an execution perspective, liaising with CM as needed 
+ΓÇó Reviews and captures the non -technical bid requirements to ensure they are 
+incorporated into the Project ManagerΓÇÖs deliverables 
+ΓÇó Ensures assessment and review of costs validated by the bid manager based 
+on previous project execution  
+ΓÇó Validates the Master Plan prepared by the Project Planner  
+ΓÇó Participates in the definition of key contractual assumptions 
+ΓÇó For Key Initiatives , Vehicles Bids,  and other complex bids, (where early 
+execution-driven structuring is required due to execution complexity and long-
+term delivery exposure) the Project Manager  leads the identification, 
+assessment and consolidation of risks and opportunities during the Bid phase 
+with the support of the Bid Manager. In this context, the Project Manager 
+ensures that all relevant MWPMs, WPMs and WPLs formally identify and assess 
+risks within their assigned scope and consolidates them at Bid level, ensuring 
+alignment between ri sk assessment and execution strategy. The PM is 
+accountable for the overall risk and opportunity profile and register, ensuring 
+its robustness, completeness, and consistency with the proposed delivery 
+strategy before finalizing and sharing with the Bid Manager for incorporation 
+into the Bid Baseline.  The resulting risk profile is then pro vided to the Bid 
+Manager who is accountable for  formal consolidation and integration into the 
+Bid baseline in accordance with governance requirements. 
+ΓÇó For all other bids, where complexity or long-term delivery exposure are limited 
+(including standard bids), the Bid Manager leads directly the risk identification, 
+assessment and consolidation process during the Bid phase.  
+ΓÇó Ensures that a delivery strategy is defined in the bidding phase, supporting an 
+efficient mobilisation and contract award handover 
+SRS 
+ΓÇó If BIM (Building Information Monitoring) is required by the bid, ensures that 
+the EmployerΓÇÖs Information Requirements (EIR) and all BIM -related tender 
+requirements are analysed; initiates and oversees the preparation of the 
+preliminary BEP  
+4.2.4.2 Bid Controller 
+Tailoring or Adjustments:  
+In the LoB Vehicles, the Bid Controller is known as the Project Controller even within 
+the Bidding phase.  
+
+--- Page 21 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 21/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+Main Responsibilities: The Bid Controller (BC) reviews the consolidated bid budget 
+and assists the Bid Manager on economic and financial evaluations. Based on RSBU 
+governance, a given profitability target is identified for each bid and BC responsibilities 
+focus on ensuring this is respected. 
+Key Tasks: 
+ΓÇó Provides the Bid Manager (BM) with its own internal controlling budget for the 
+bid initiative ( not cost but quantities/hours), including assumptions and 
+limitations. 
+ΓÇó Checks cost estimations with the support of the BM, ensuring consistency with 
+project scope and other comparable projects/bids.  
+ΓÇó Performs economic and financial analysis, supporting the BM in cash flow and 
+NPV (Net Present Value) calculations. 
+ΓÇó Provides the BM with the financial parameters applied to each Legal Entity for 
+the consolidation of the P&L at LoB level, according to their availability from 
+FP&A.  
+ΓÇó Provides the hourly rates used for the cost estimations, based on the official 
+rates existing in the ERP system, and requests to the CFO and COO for approval 
+of any adjustment where needed.  
+ΓÇó Checks risk analysis (both contingency and penalties) and contributes to the 
+final review of associated costs and risks associated with the project/bid. 
+ΓÇó Supports the BM in the handover process to project execution, formally 
+transferring ownership and accountability of an established baseline, sharing 
+all relevant financial documentation and information to the Project Manager 
+(PM), the Bid Controller and the project team as required. 
+4.2.4.3 Project Planner 
+Main Responsibilities : The Project Planner (PJP) is accountable for the 
+preparation of the Project Delivery Master Schedule based on contractual 
+requirements and data provided by the Team members/Workload optimisation 
+function, within the timeframe defined by the Bid Manager. 
+Key Tasks: 
+ΓÇó Creates and delivers the Project Delivery Master Schedule to the Bid Manager 
+for final approval after validation by the PM 
+ΓÇó In case of Hitachi  RailΓÇÖs inclusion in consortium, the Project Planner is 
+responsible for setting the interface schedule with partners or other 
+stakeholders involved in the project in order to ensure effective delivery of 
+Hitachi RailΓÇÖs scope of work 
+ΓÇó Ensures proper planning documentation required during the bid 
+ΓÇó Provides the Bid Manager with its internal Planning Scope of work description 
+(incl. Assumption and limitation) and with its related hours and cost estimation 
+ΓÇó Provides schedule narrative, critical path, and other insights/analysis as 
+appropriate 
+
+--- Page 22 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 22/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+4.2.4.4 Project Engineer 
+Tailoring or Adjustments: One Project Engineer within the Bid (properly supported 
+for complex projects by a dedicated team). In the case of multi -entity Bids, where 
+there may be several engineering WPM/WPLs responsible for their respective 
+perimeter of solution, the  Project Engineer (PE) (MWPM) must be identified who 
+holds the final technical solution authority and is accountable for the entire Bid. 
+Main Responsibilities: The PE leads and is accountable for the definition of the 
+technical solution and for the preparation, validation and submission of the overall 
+technical proposal in compliance with customer requirements, relevant 
+norms/standards/regulatory frameworks and the assigned project constraints (time, 
+cost, quality) 
+Key Tasks: 
+Technical Solution Ownership 
+ΓÇó Leads, coordinates, and oversees bid technical solution preparation. 
+ΓÇó Coordinates Bid technical team across all engineering disciplines and relevant 
+interfaces and guarantees full integration of each contribution in the overall 
+Technical Solution (which is then further integrated into the overall proposed 
+solution by the Bid Manager). 
+ΓÇó Ensures that the bid technical solution and the anticipated development 
+activities are aligned with product roadmap, as defined by portfolio/product line 
+manager. 
+ΓÇó Ensures that the production and maintenance/service aspects of the Solution 
+are taken into account in terms of: Manufacturability, Maintainability, 
+Consistency between Non-Recurring and Recurring/Production costs. 
+Γû¬ VHC: Accountable for the preparation and maintenance throughout the 
+Bid phase of the Product Data Sheet (PDS), to allow the Quotation 
+Manager to start collecting and consolidating the industrial product cost 
+to be provided to the Bid Manager 
+ΓÇó Checks that the Engineering Environment (process, practices and tools) for the 
+Solution is consistent with the project requirements and the applicable 
+engineering environment rules. 
+ΓÇó SRS: Ensures coordination with Technical Authority for relevant bids and 
+submission of required documents for assessment 
+Customer and Stakeholder Interface 
+ΓÇó Leads technical issue discussions both with the customer and partners, in 
+coordination with Bid team. 
+Requirement and Compliance Management 
+ΓÇó Accountable for ensuring that the technical bid proposal is prepared in 
+compliance with customer requirements, relevant norms, standards, regulatory 
+
+--- Page 23 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 23/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+frameworks and internal rules (e.g. Export Control, Environmental/ HSE, 
+Cybersecurity, Safety, RAM). 
+ΓÇó Ensures the bid technical proposal is feasible within the assigned constraints 
+(including time, cost, quality, skilled resources availability and industrial 
+organisation) 
+ΓÇó Ensures requirements management, including clause by clause assessment of 
+customer specification and preparation of the compliance matrix. 
+ΓÇó Drives the preparation of technical specifications to support requests for the 
+suppliersΓÇÖ quotation 
+Technical Configuration and Baseline Management 
+ΓÇó Ensures technical baselines capture and initial PBS preparation. 
+Technical Risk and Opportunity 
+ΓÇó Responsible for providing the Bid Manager with the technical Risks and 
+Opportunities. 
+ΓÇó Supports mitigation strategies definition. 
+Documentation and Deliverables 
+ΓÇó Ensures preparation and delivery of required technical documentation. 
+ΓÇó Provides the Bid Manager with all relevant hours and cost estimations, including 
+assumptions and limitations of the project, relevant to the proposed technical 
+solution. 
+ΓÇó Responsible for the outlining the certification and the validation strategies. 
+ΓÇó Responsible for timely submission of the technical proposals to the customer. 
+4.2.4.5 Contract Manager 
+Tailoring or Adjustments: In small and low risk projects, the role of the Contract 
+Manager may be held by another member of the project team at the discretion of the 
+BM and functional management  
+Main Responsibilities : The Contract Manager supports the assessment of the 
+contract, identifying any departures and determining how best to meet the 
+requirements in terms of commercial structure.   
+Key Tasks: 
+ΓÇó Ensures all required due diligence reviews and export and trade control checks 
+have been initiated and conducted on all Project Parties before bid submission 
+and documented accordingly  
+ΓÇó Reviews the prime/head contract terms and conditions, supporting the bid 
+manager to formulate a list of commercial and legal departures for bid 
+submission 
+ΓÇó Supports the Capture Leader in consultation other LCC team members to 
+formulate and negotiate the terms sheet and/or pre-bid teaming arrangement, 
+along with exclusivity agreements or others 
+
+--- Page 24 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 24/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó Formulate and prepare the flow down terms or principles for major ΓÇ£buyΓÇ¥ 
+packages to support Procurement in price sourcing 
+ΓÇó Ensure all proposed key subcontractors for major ΓÇ£buyΓÇ¥ packages have 
+undergone due diligence reviews 
+ΓÇó Supports the Project Team, in particular Project Engineer, PM, and Bid Manager 
+in ensuring the technical and commercial assumptions are appropriately 
+worded and sufficiently robust for bid submission 
+ΓÇó The Contract Manager provides recommendations to the Bid Manager regarding 
+the commercial and contractual aspects of the tender 
+ΓÇó Provide the Bid Manager with its Contract Management Scope of Work 
+description (including assumptions and limitations) and with its related hours 
+and cost estimation. 
+4.2.4.6 Project Quality Manager  
+Main Responsibilities: The Project Quality Manager (PQM) is responsible for 
+analysing the tender quality requirements, inputting into PQM work/cost estimations, 
+and ensuring quality requirements are flowed down into supplier contracts  
+Key Tasks: 
+ΓÇó Ensures the analysis of the tender quality requirements 
+ΓÇó Ensures the estimation of the planned quality assurance activities scope of work 
+(including assumptions and limitations) and the hours/commitment expected 
+during the project execution phase (to implement the QMP and associated 
+manuals) 
+ΓÇó Monitors, in coordination with procurement, that identified suppliers are aligned 
+with the quality requirements (across the full scope of work) and that they are 
+on the supplier register 
+ΓÇó Ensure traceability and homogeneity of bid deliverables (decision, risks, 
+documents, etc.)  
+ΓÇó Assesses bid quality performance and maturity by delivering Quality Advice (Q-
+Advice) and raising alerts as applicable 
+ΓÇó Ensure lessons learned are used at the start and collected at the end of bid 
+4.2.4.7 HSE Referent 
+Main Responsibilities: The HSE tender referent is responsible for the Preliminary 
+HSE Plan issue (when required)  
+Key Tasks: 
+ΓÇó Ensures that all specific HSE requirements (regulatory and contractual) are 
+identified, shared among Bidding Team and addressed in the tender deliveries 
+ΓÇó Ensures support to the Bidding Team to comply with HSE regulatory and project 
+requirements 
+
+--- Page 25 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 25/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó Ensure identification of HSE requirements for suppliers and contractors and 
+deliver HSE Purchase Technical specifications 
+ΓÇó Identify the HSE Bid deliverables (HSE Preliminary Plan, HSE KPIS, HSE 
+Management System, etc.) and ensure its delivery 
+ΓÇó Prepare the most cost ΓÇæeffective HSE estimation including internal resource 
+hours, travelling requirements, appropriate allocation of local or consultant HSE 
+resources in line with legal and contractual requirements 
+ΓÇó In the case of a Consortium or Joint Venture with other entities (e.g., Civil 
+Contractors or Hitachi Group parent companies), support the correct 
+assignment of HSE responsibilities within the Scope of Work (SOW) agreement 
+and highlight any potential weaknesses, risks, or missing role assignment. 
+4.2.5  Bidding Team ΓÇô Roles applicable in SRS 
+4.2.5.1 Project RAMS Manager  
+Tailoring or Adjustments: The Project RAMS Manager, while reporting quality, 
+time, and cost to the BM, acts independently and without influence to ensure safety 
+decision-making.   
+Main Responsibilities: The Project RAMS Manager ensures all RAM and Safety 
+requirements are clearly identified, assessed for their applicability, and allocated 
+across each subsystem and main assembly levels to ensure a safe and compliant 
+operation  
+Key Tasks 
+ΓÇó ensure the analysis of eventual tender RAM, FRACAS, LCC, Safety and Human 
+Factor requirements to identify any relevant laws, standards, company 
+processes, regulations, and certification requirements 
+ΓÇó ensure the definition of RAMS targets, strategy and analysis for the integrated 
+system/vehicle and any relevant sub-system or assembly 
+ΓÇó ensure the definition and alignment with the Independent Validation strategy 
+ΓÇó ensure the coordination and confirmation of the RAMS SoW across different 
+entities (in line with safety maturity level roadmap) for bids involving RAMS 
+WPLs from multiple entities 
+ΓÇó coordinate with the relevant engineering referent to receive information on 
+contractual technical gap analysis and preliminary proposed design solution as 
+well as support the identification of improvement opportunities for system 
+design/vehicle configuration for RAMS scope 
+ΓÇó support the transfer of RAMS requirements list to all potential suppliers as well 
+as technically evaluate the offers from potential suppliers for RAMS-related 
+performance 
+
+--- Page 26 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 26/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó ensure the preparation of relevant RAMS tender documentation and coordinate 
+with external partners for establishing the appropriate safety strategy 
+(according to tender requirements) 
+ΓÇó provide the Bid Manager with RAMS and Independent Validation Scope of Work 
+description (including assumptions and limitations) and related estimated 
+hours and cost (including training, assessment bodies, travels etc.). 
+4.2.5.2 Supply Chain and Procurement Manager 
+Tailoring or Adjustments: n/a  
+Main Responsibilities: Supports the Bid Manager in assessing supply chain and 
+procurement requirements for the bid, ensuring accurate cost and resource estimates 
+based on initial assumptions  
+Key Tasks: 
+ΓÇó participates in the bidding procurement strategy definition, in compliance with 
+companyΓÇÖs procurement guidelines 
+ΓÇó evaluates the make or buy strategy, verifying that all external cost estimation 
+matches with project requirements and contractual requirements 
+ΓÇó supports material estimation for major assemblies and equipment  
+ΓÇó records make vs buy/procurement strategy decisions in the make and buy cost 
+estimate sheet 
+ΓÇó identifies any Long Lead items that the project may need to procure prior to 
+Notice to Proceed or as soon as the contract is signed, to ensure that project 
+milestones are met 
+ΓÇó contributes to the development of the project programme, advising on lead 
+times for material procurement 
+ΓÇó contributes to the risk register, advising on relevant risks associated with 
+procurement activities  
+ΓÇó evaluates the bid, capturing any key contract requirements regarding 
+procurement, particularly those relevant to tender evaluation criteria 
+ΓÇó supports the project engineer in analysis of obsolescence information on bid 
+technical solution 
+ΓÇó provides the Bid Manager with its Supply Chain & Procurement Scope of Work 
+description (including assumptions and limitations) and with its related hours 
+and cost estimation. 
+4.2.5.3 Construction Manager 
+Main Responsibilities: The Construction Manager is responsible for reviewing 
+project requirements and defining the construction and installation strategy to 
+support the bidding process. The role ensures that all construction ΓÇærelated inputs 
+(including scope, costs, and risks) are complete, accurate, and aligned with project 
+requirements. The Construction Manager defines the construction portion of the 
+
+--- Page 27 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 27/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+project schedule, including milestones and dependencies, and ensures overall 
+feasibility from both constructability and execution perspectives. 
+Key Tasks 
+ΓÇó reviews the project requirements related to construction/installation activities, 
+and identifies constructability constraints or missing inputs impacting schedule 
+or budget 
+ΓÇó performs site surveys and prepares a formal Site Survey Report, including risks 
+and opportunities related to physical site conditions and predecessor activities 
+ΓÇó defines the construction schedule, including key milestones, mobilization dates, 
+installation durations, and interfaces, and shares it with the Project Planner 
+who validates logic and format before they integrate it into the master schedule 
+ΓÇó defines construction execution assumptions and exclusions to ensure 
+transparency in the bid. 
+ΓÇó delivers the Procurement Technical Specification relevant to construction 
+activities to the SCPM in order to define the scope of work along with the 
+guidelines, technical provisions, and requirements that the external provider 
+will have to respect   
+ΓÇó defines the construction/installation strategy, team organisation, and workload 
+(internal and outsourced), as well as the site mobilization plan for 
+construction/installation activities. 
+ΓÇó provides the Bid Manager with its  Construction Scope of Work description 
+(including assumptions and limitations) along with the related hours and cost 
+estimation 
+ΓÇó provides technical support to the Procurement Department in the identification 
+and selection of installation subcontractors and supports in the technical review 
+and evaluation of the quotations. Reviews subcontractor bids for technical 
+completeness and alignment with the construction strategy. 
+4.2.5.4 Commissioning Manager [SRS] 
+Main Responsibilities: Responsible for preparing the commissioning strategy and 
+commissioning schedule in alignment with the overall project master schedule. 
+Key Tasks: 
+ΓÇó Ensures the definition of the commissioning strategy and of the commissioning 
+activities, as well as the delivery of the Commissioning Plan  
+ΓÇó Provides the Commissioning Work Schedule to the Project Planner to integrate 
+the overall schedule with the detailed commissioning activities, according to 
+the Commissioning plan and Verification and Validation (V&V) Plan.  
+ΓÇó Ensures the costs and resource estimation regarding the on site testing 
+activities, including assumptions and limitations as well as commissioning 
+coordination efforts 
+
+--- Page 28 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 28/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+4.2.5.5 Warranty Manager [SRS] 
+Main Responsibilities: Creates end-to-end service model, warranty strategy and 
+concept; ensures warranty concept and commitments are compliant to customer 
+requirements. Provides resource and material estimates associated with the 
+completion of warranty obligations and ensures preparation of technical deliverables 
+or any needed documentation 
+Key Tasks 
+ΓÇó ensures the maintenance/warranty requirements analysis and allocation for the 
+bid as per tender documents 
+ΓÇó ensures the preparation of any warranty bid technical deliverables in line with 
+bid schedule and tender requirements 
+ΓÇó ensures the alignment of the warranty scope with technical baseline, service 
+strategy and supplier back-to-back coverage 
+ΓÇó ensures the analysis and approval of supplier contribute to warranty and 
+service (coverage, duration, advance replacements) 
+ΓÇó ensures the alignment with warranty policy and legal/regulatory requirements. 
+ΓÇó estimates (with the support of RAM data) any material necessary for the 
+execution of the warranty period and design the correct approach to the KPIs 
+analysis and demonstration 
+ΓÇó provides the Bid Manager with its Warranty management Scope of work 
+description (incl. Assumption and limitation) and with its related hours and cost 
+estimation. 
+4.2.6  Bidding Team ΓÇô Roles applicable in VHC 
+4.2.6.1 Project RAM Manager 
+Main Responsibilities : The Project RAM Manager  is responsible for the 
+identification of the RAM requirements of the tender and assesses their applicability, 
+as well as allocation to each subsystem/main assembly. 
+Key Tasks: 
+ΓÇó ensures the analysis of required RAM and LCC performance 
+ΓÇó defines RAM and LCC targets, strategy and analysis for the integrated 
+system/vehicle and any relevant sub-system/assembly 
+ΓÇó co-ordinates with the PE to receive information on contractual technical gap 
+analysis and preliminary proposed design solution 
+ΓÇó supports the PE in identification of improvement opportunities for system 
+design/vehicle configuration for RAM and LCC scope 
+ΓÇó supports transfer of RAM and LCC requirements list to all potential sub -
+suppliers 
+ΓÇó ensures the preparation of relevant RAM and LCC tender documentation 
+
+--- Page 29 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 29/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó identifies material requirements to support reliability 
+ΓÇó supports the Risk manager in the identification of potential risks and mitigation 
+measures 
+ΓÇó provides the Bid Manager with its RAM Management Scope of Work description 
+(including assumptions and limitations) and with its related hours and cost 
+estimation 
+ΓÇó ensures identification and escalation of design config critical aspects 
+4.2.6.2 Project Safety Manager 
+Tailoring or Adjustments : Although reporting to the BM, the Project Safety 
+Manager operates in an independent way in accordance with CENELEC/IEC standards 
+Main Responsibilities : The Project Safety Manager  is responsible for the 
+identification of the Safety requirements of the tender and assesses their applicability, 
+as well as allocation to each subsystem/main assembly 
+Key Tasks: 
+ΓÇó ensures the analysis of the tender safety requirements to identify any 
+laws/regulations for safety approval, and estimating the relevant costs 
+ΓÇó defines safety targets, strategy and analysis for the integrated system/vehicle 
+and any relevant sub-system/assembly 
+ΓÇó co-ordinates with the PE to receive information on contractual technical gap 
+analysis and preliminary proposed design solution 
+ΓÇó supports the PE for identification of improvement opportunities for system 
+design/vehicle configuration for Safety scope 
+ΓÇó supports transfer of Safety requirements list to all potential sub-suppliers 
+ΓÇó ensures the preparation of relevant Safety tender documentation 
+ΓÇó provides the Bid Manager with its Safety Management Scope of Work 
+description (including assumptions and limitations) and with its related hours 
+and cost estimation 
+ΓÇó ensures the identification of any missing safety requirements 
+ΓÇó ensures identification and escalation of design configuration critical aspects. 
+4.2.6.3 Project Procurement Manager 
+Main Responsibilities: The Project Procurement Manager  (PPM) leads and is 
+accountable for procurement activities during the bid phase, ensuring contractual 
+procurement requirements are understood, sourcing strategy is defined, supplier 
+assumptions are credible, and external costs are robust to support a compliant and 
+deliverable offer 
+Key Tasks: 
+
+--- Page 30 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 30/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó ensures analysis of contractual requirements relevant for procurement, in 
+alignment with specifications from stakeholders and with the support of Legal 
+and Project Management, prepares the RFP/RFQ 
+ΓÇó ensures the definition of the vendor list in collaboration with stakeholders 
+ΓÇó ensures quoted materials are in accordance with contractual milestones and 
+technical, cost, and performance requirement 
+ΓÇó coordinates the management of suppliers, coordinating supplier interactions 
+during the bid and ensuring supplier offers meet technical, performance, 
+schedule and commercial requirements  
+ΓÇó ensures the definition and update of the bid procurement plan 
+ΓÇó contributes to the supplier assessment process 
+ΓÇó ensures the definition of a list of major cost items, highlighting any deviation 
+from the baseline value, supporting the Design -To-Cost activities where 
+appropriate 
+ΓÇó contributes to risk analysis for procurement and supplier risks (including lead 
+time, capacity, single source exposure, commercial constraints, etc) and 
+proposing mitigations and contingencies 
+ΓÇó supports the quotation manager in definition of make/buy mix by defining the 
+costs for all the proposed configuration 
+ΓÇó provides the Bid Manager with its Procurement Scope of Work description 
+(including assumptions and limitations) and with its related hours and cost 
+estimation. 
+4.2.6.4 Test Manager 
+Main Responsibilities : Ensures the analysis and feasibility of any testing 
+requirements (tender and internal).  
+Key Tasks: 
+ΓÇó supported by the PE, develops an efficient plan for the type testing of vehicles, 
+which will ensure the development, testing and validation of the project 
+(according to the Project Master Schedule) 
+ΓÇó manages the overall type testing plan incorporating components (under the 
+responsibility of the Project Engineer) and Vehicles 
+ΓÇó ensures the analysis and the management of the involvement of any eventual 
+external infrastructures required by the experimental vehicle tests 
+ΓÇó ensures the analysis of the test tender requirements ΓÇô technical and delivery 
+methods/constraints 
+ΓÇó ensures the analysis of the standard applicable to the bid received by the 
+Certification and Safety Manager 
+ΓÇó ensures that, with close cooperation with the Project Engineer and relevant 
+WPLs, an effective and efficient plan is developed for the Type test, Routine 
+Testing and Acceptance test of the project 
+
+--- Page 31 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 31/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó contributes to the risk matrix about testing for the project analysed 
+ΓÇó is responsible for developing an estimate of cost that takes into account all that 
+is required to support for the Type test, Routine Testing and Acceptance test of 
+the project or any other support required by the project. This includes all 
+external/third party costs for infrastructure required by experimental vehicle 
+testing.  
+ΓÇó maintains the relationship with internal and external stakeholders (notified 
+body laboratory and National Safety Authority) necessary for proper cost 
+estimation  
+ΓÇó highlights any required changes or any need of investments in the vehicle or 
+component test facilities (including simulators) 
+4.2.6.5 Project Operations Manager  
+Tailoring or Adjustments: Project Operations Manager (POM) for Rolling Stock 
+(RS) project are the former Workload Optimisation and Balancing (WOB) and Project 
+Manufacturing Manager referents. POM for Service and Maintenance (S&M) project is 
+the former S&M Supply Chain Manager  
+Main Responsibilities:  
+RS: define and foresees the relevant workload balancing and industrial activities that 
+will impact the plants 
+S&M: defining the spare parts stock and leading repairs  
+Key Tasks: 
+Rolling Stock (role is usually split across more than one referent: a WOB specialist 
+and a Plants Industrialisation specialist)  
+ΓÇó supports the definition of the most competitive solutions (technical solution, 
+make or buy decision, etc), providing all relevant elements related to 
+manufacturing, feeding in the required manufacturing milestones that will be 
+included in an Integrated Plan as an output measure for other Functions 
+ΓÇó defines and agrees the manufacturing scope of work among the production 
+sites and production plan (to be shared with Project Planner) 
+ΓÇó ensures the definition of the manufacturing processes and cycle times to be 
+put in place for the production of the vehicles 
+ΓÇó confirms with the other stakeholders (primarily PE and PPM) the manufacturing 
+feasibility assumptions 
+ΓÇó estimates the costs, and durations needed for manufacturing jigs, learning 
+curve and production hours, and transmits them to the Quotation Manager, 
+declaring assumptions and risks.  
+Service and Maintenance 
+
+--- Page 32 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 32/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó Defines the labour model (workforce size, workload, skills) based on the 
+maintenance plan 
+ΓÇó Defines spare parts strategy, including initial provisioning and consumption 
+curves 
+ΓÇó Estimates costs, durations, learning curves, risks and opportunities, providing 
+structured inputs to the Quotation Manager 
+ΓÇó Ensures cross-functional alignment with Engineering, Operations, 
+Industrialisation and Supply Chain during the bid phase 
+4.2.6.6 Commissioning Manager [VHC] 
+Main Responsibilities: Responsible for preparing the commissioning strategy and 
+commissioning schedule in alignment with the overall project master schedule. 
+Key Tasks: 
+ΓÇó Provides the Commissioning Work Schedule to the Project Planner to integrate 
+the overall schedule with the detailed commissioning activities, according to 
+the V&V plan  
+ΓÇó Responsible for defining the commissioning strategy and assessing/validating 
+that the costs and resource estimation done by the WPLs regarding on site 
+testing activities are compliant with the strategy 
+ΓÇó Provide the Bid Manager with its Commissioning Scope of work description (incl. 
+Assumption and limitation), with the estimation of the commissioning 
+coordination costs and validating commissioning activities costs 
+ΓÇó Identifies risks and opportunities within commissioning activities 
+4.2.6.7 Warranty Manager [VHC] 
+Main Responsibilities: Provide resource and material estimates associated with the 
+completion of warranty obligations and support preparation of technical deliverables 
+or documentation  
+Key Tasks: 
+ΓÇó ensures the maintenance requirements analysis and allocation for the bid as 
+per tender documents 
+ΓÇó ensures the preparation of any warranty bid technical deliverables in line with 
+bid schedule and tender requirements 
+ΓÇó with the support of RAM data, estimates material necessary for the execution 
+of the warranty period 
+ΓÇó provides the Bid Manager with its Warrant Management Scope of work 
+description (incl. Assumption and limitation) and with its related hours and cost 
+estimation 
+ΓÇó identifies risks and opportunities within warranty activities. 
+
+--- Page 33 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 33/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+4.3 Project Execution Team 
+4.3.1  Project Execution Team ΓÇô Standard Principles  
+The Project Execution Team (hereafter referred to as Project Team ) is the inter -
+functional organisational structure responsible for managing the Project under the 
+leadership of the Project Manager, during the whole project lifecycle. A Project Team 
+is set up when a new contract is awarded to RSBU and a project has to be launched 
+in order to execute the relevant scope of work.  
+The composition of the Project Team shall be defined and aligned with the structure 
+outlined in this document. In case of specific customer requests, a different additional 
+team representation can be created specifically for external use only, with no impact 
+on the way the RSBU manages and delivers the project. 
+Although the Project Team is expected to be staffed in accordance with this document, 
+due to the variety in size and complexity of project execution, the following principles 
+may be taken in consideration for tailoring: 
+ΓÇó A Project Team role does not necessarily correspond to 1 Full Time Equivalent 
+(FTE). Based on workload and complexity, the Project Manager and the relevant 
+functional organisation determine the appropriate FTE allocation  
+ΓÇó In certain cases (e.g. small and less complex projects with highly experienced 
+professionals), one individual may cover more than one role  (either fully or 
+partially), subject to joint assessment by the Project Manager and the relevant 
+functional organisation. In such cases, the individual ensures appropriate 
+functional reporting within the functional organisations 
+Project Team Members are responsible for performing the assigned activities on 
+budget, quality and on time, and in line with Safety > > Quality > Delivery > Cost 
+(S>>Q>D>C) approach, according to the relevant plans/schedule and to the project 
+baseline. 
+The Project Team Members are responsible for the management and control of the 
+assigned project activities within RSBU  and are delegated full authority by the 
+organisation to do this within the project context. 
+In addition to its role-specific responsibility, each Project Team Member is responsible 
+to: 
+ΓÇó issue all the documentation relevant to their functional area 
+ΓÇó provide the Project Planner and Project Manager with the related detailed 
+project delivery schedule and periodical physical progress 
+ΓÇó provide to the Project Controller (via any applicable tool or system) a periodical 
+progress of the hours, costs and requirements related to the execution of the 
+activities within the assigned SoW / WPs 
+ΓÇó provide the Project Manager with the evaluation of the risks and opportunities 
+related to the assigned SoW 
+
+--- Page 34 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 34/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+The Project Team operates transversally to RSBU functions , business segments, 
+regions and Legal Entities and collaborates towards a joint project outcome, either 
+successful or unsuccessful. As such, the Project Manager is accountable for the 
+performance of the assigned activities (and control of associated costs and margin) 
+at project leve l, regardless of the Legal Entity/ies where they are executed and 
+generated. In this respect, intra -company orders, necessary to formalise the 
+relationship among RSBU Legal Entities, have an administrative purpose. 
+In order to ensure effective delivery, it is critical to ensure that a single individual 
+maintains ultimate accountability even in complex cross Business Segment, or cross 
+Legal Entity projects. As key principles: 
+ΓÇó A single Project  Manager is appointed for each project and leads the Project 
+Team and all activities across functions, business segments, regions, and legal 
+entities. The Project Manager holds full end -to-end accountability for the 
+Project, in line with S>>Q>D>C approach. 
+ΓÇó A single Project Engineer (PE) acts as the sole technical lead on the project 
+solution. The PE ensures end -to-end technical coherence, integrity and 
+feasibility of the proposed solution. 
+ΓÇó In the event that additional project management or engineering roles are 
+required due to the distribution of project activities, these roles shall take the 
+form of WPMs or WPLs and be strictly subordinate to the Project 
+Manager/Project Engineer. 
+4.3.2  Project Execution Team ΓÇô Roles applicable to SRS and VHC  
+4.3.2.1 Project Manager 
+Tailoring or Adjustments: Only one Project Manager (PM) is foreseen within the 
+LoB (work split between LE or Business Segments will use a work package structure)  
+Main Responsibilities: The PM has the overall  cross-functional accountability for 
+the end-to-end delivery of the project from contract award to completion, meeting 
+contractual requirements and delivering on safety, budget, quality and time, ensuring 
+customer satisfaction. The PM is accountable for risk management and project 
+contingency allocation as well as the customer relationship. The PM is ultimately 
+accountable for overall project Profit and Loss (P&L).  
+Key Tasks: 
+ΓÇó drives the definition/review and approval of project baseline, ensuring update 
+and alignment with all the involved stakeholders (internal and external) 
+ΓÇó validates and manages any changes to the project baseline 
+ΓÇó ensures compliance with contractual requirements ( including cost, time and 
+quality) in collaboration with Project Team members 
+ΓÇó leads mobilisation and execution of the delivery strategy 
+ΓÇó manages risk, opportunity, and contingency for the whole project 
+
+--- Page 35 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 35/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó validates economical and financial progress reports including Revenue, Gross 
+Margin, Invoicing and Cash-in 
+ΓÇó prepares and monitors, with Project Controller, the annual project budget and 
+quarterly updates (forecasts)  
+ΓÇó manages customer communications and relationships, including variation 
+requests, supported by Contract Management as needed 
+ΓÇó validates sub-contracts/letters of intent relevant to key sub-suppliers and RSBU 
+Legal Entities (including cost, quality and schedule) 
+ΓÇó ensures final authorisation of any deliveries to the customer 
+ΓÇó monitors and manages  all work packages  through prescribed project 
+management governance MPR (Monthly Project Review) , escalating through 
+QPR (Quarterly Project Review) as required, ensuring project team members 
+staffing is correct 
+ΓÇó where appropriate, ensures the proper project transition from Design and Build 
+(DB) to an Operation and Maintenance (O&M) or Service & Maintenance (S&M) 
+Project Manager 
+ΓÇó manages and leads the project team 
+ΓÇó manages external and internal stakeholders 
+ΓÇó ensures lessons learned and drive s projects execution towards Continuous 
+Improvement (CI) 
+SRS 
+ΓÇó If Building Information Modelling (BIM) is required by the project, being the 
+overall BIM Process Owner, the PM initiates and oversees the preparation of 
+the BIM Execution Plan and ensures its full implementation  
+4.3.2.2 Project Controller 
+Main Responsibilities: The Project Controller is responsible for guiding and driving 
+the project and for the control of its economic and financial aspects. In particular, this 
+role is accountable for: 
+ΓÇó monitoring the financial aspects of the project, including order intake, 
+revenues, estimate at completion (EAC), backlog, backlog profitability and 
+workability, inventory analysis, workflow analysis, and working capital.  
+ΓÇó reviewing, questioning and challenging these metrics with the Bid/Project 
+Manager and the relevant team members, ensuring robustness of the financial 
+picture. 
+ΓÇó monitoring the project costs and revenues, supporting the PM in the analysis 
+of deviations from the baseline; 
+ΓÇó defining the corrective actions and leading their tracking activities; 
+ΓÇó reporting and consolidating the financial data at project level; 
+ΓÇó verifying and preventing any risk of extra costs impacting the Whole Life Budget 
+(equal EAC); 
+
+--- Page 36 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 36/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó proposing updates to the contingencies; 
+ΓÇó analysing and discussing with the business the blocked trade receivables; 
+ΓÇó tracking and highlighting profitability improvement opportunities; 
+ΓÇó notifying to the FAS&T and CFO any change in the EAC. 
+Key Tasks: 
+ΓÇó Maintains the project baseline for financial aspects and monitor deviations, 
+trends, and cost to complete. 
+ΓÇó Monitors and reports economic progress (forecasts, yearly budget and budget-
+plan) including at project reviews and for internal Company reporting. 
+ΓÇó Identifies, tracks and reports profitability improvement opportunities and 
+financial risk to the Project Manager. 
+ΓÇó Co-ordinates support/contributions relating to the project from the whole CFO 
+organisation. 
+ΓÇó Registers and officialises (upon management approval) any variations to 
+baseline. 
+ΓÇó Reports and consolidates the project level data, including the order intake, 
+backlog, utilising a BPC tool.  
+ΓÇó Reports and monitors WIP and Working Capital, highlighting risks and required 
+actions. 
+ΓÇó Within LoB VHC: the PJC is responsible for developing the WBS (with the 
+support of the Project Manager ) and the associated CBS under ultimate 
+accountability of the PM. 
+Within LoB SRS: the PJC supports the Project Planner who is responsible to 
+develop the WBS , the PJC is responsible for developing the associated CBS 
+under ultimate accountability of the PM. 
+4.3.2.3 Project Planner 
+Main Responsibilities: The Project Planner (PJP) ensures continuous and active 
+monitoring of the project physical progress and its critical path and monitors the 
+compliance of the project with all contractual milestones. They own project physical 
+progress planning and schedule control during execution, ensuring the baseline is 
+robust, progress is measured credibly, impacts are analysed, and recovery plans are 
+developed 
+Key Tasks: 
+ΓÇó Preparation and Maintenance of Project Master Schedule in line with the 
+contractual WBS 
+ΓÇó In case of Hitachi  RailΓÇÖs inclusion in consortium, the Project Planner is 
+responsible for setting and maintaining the interface schedule milestones with 
+partners or other stakeholders involved in project execution in order to ensure 
+effective performance of Hitachi RailΓÇÖs scope of work 
+
+--- Page 37 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 37/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó Creation and monitoring of the Project Second Level Schedule (based on the 
+contributions from each Project Team member) showing detailed project 
+activities (including engineering, procurement, production, Quality Assurance 
+(QA), safety, certification, delivery, test) including all regions/countries and 
+business segments, along with contractual milestones 
+ΓÇó With the support of relevant functions, mitigates any risk of delays impacting 
+contractual obligations, escalating any significant deviations to the Project 
+Manager 
+ΓÇó Supports the overall identification, reporting and mitigation/achievement of 
+schedule risks and opportunities  
+ΓÇó Ensures regular updating of monitoring, reporting, and analysis of project 
+physical progress with all functions involved aligned to the project plan as a 
+single point of truth  
+SRS 
+ΓÇó The Project Planner is responsible for developing the WBS with the support of 
+the Project Controller and under the ultimate accountability of the PM  
+4.3.2.4 Project Engineer 
+Tailoring or Adjustments:  One Project Engineer within the Project (properly 
+supported for complex projects by a dedicated team). In the case of multi -entity 
+Projects, where there may be several engineering WPM s/WPLs responsible for their 
+respective perimeter of solution, the Project Engineer (PE)  (MWPM) must be 
+identified who holds the final technical solution authority and is accountable for the 
+entire Project. 
+It is important and strongly recommended , whenever feasible, for the same 
+Engineering resource to be appointed in the Bidding and Project Execution phases to 
+ensure business continuity, reinforce ownership, and enhance accountability.   
+Main Responsibilities:  The Project Engineer  leads and is accountable for the 
+overall technical solution (which covers all contractual technical specification 
+requirements and any additionally generated technical requirement during 
+execution), for its design, delivery and verification and validation, and for the 
+acceptance of the Customer; this by ensuring integration, compliance, and 
+configuration control and according to the budgeted cost, schedule, and quality target 
+of the project. This technical solution is then further integrated into the overall project 
+solution under the accountability of the PM.  
+Key Tasks:  
+Technical Solution Ownership 
+ΓÇó Leads, coordinates, and oversees the design and delivery of the technical 
+solution. 
+ΓÇó Accountable for ensuring that the technical solution is planned, designed, 
+developed, verified and validated, and delivered effectively, efficiently, with 
+
+--- Page 38 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 38/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+good quality and in compliance with customer requirements, relevant norms, 
+standards, regulatory frameworks and internal rules (e.g. Export Control, 
+Environmental/ HSE, Cybersecurity, Safety, RAM), within the assigned 
+constraints (time, cost, quality) and in alignment with Product portfolio 
+roadmap and Make-Team-Buy strategy. 
+ΓÇó Coordinates project technical team across all engineering disciplines and 
+relevant interfaces and guarantees full integration of each contribution in the 
+overall technical solution development and delivery. 
+ΓÇó Ensures that the technical solution and the development activities are aligned 
+with product roadmap, as defined by portfolio/product line manager. 
+ΓÇó Ensures that the production and maintenance/service aspects of the Solution 
+are taken into account in terms of: Manufacturability, Maintainability, 
+Consistency between Non-Recurring and Recurring/Production costs. 
+ΓÇó Checks that the Engineering Environment (process, practices and tools) for the 
+Solution is consistent with the project requirements and the applicable 
+engineering environment rules. 
+ΓÇó SRS: Ensure coordination with Technical Authority for relevant projects and 
+submission of required documents for  assessment at the start of the project 
+and in case of major change affecting technical solution architecture and reuse 
+strategy  
+Customer and Stakeholder Interface 
+ΓÇó Acts as the primary technical interface with the customer  
+ΓÇó Leads technical discussions both with the customer and partners to ensure 
+expectations and questions are addressed appropriately. 
+Engineering Planning, Governance and Progress Monitoring 
+ΓÇó Plans and coordinates engineering activities and deliverables, including 
+development lifecycle selection and implementation strategy, covering entire 
+technical solution. 
+ΓÇó Defines the system development cycle and specifies the process, practices and 
+tools applicable to the product / project based on the management system and 
+tailored based on project specific constraints (e.g. tools imposed by the 
+Customer). Those elements are reported in the corresponding Engineering 
+Plans. 
+ΓÇó Ensures global consistency of the engineering process, practices and tools and 
+approves lower level solution elementsΓÇÖ engineering plans including those of 
+subcontractors and partners. 
+ΓÇó Support the functional organisation in identifying the engineering skills needed 
+to ensure Project / Product delivery. 
+ΓÇó Responsible for the outlining the certification and the validation strategies.  
+ΓÇó Monitors physical progress and performance of all engineering activities, 
+escalating issues to the PM, PQM and functional management, where required. 
+
+--- Page 39 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 39/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó Approves the main engineering reviews and deliverables, 
+ΓÇó Organizes appropriate technical meetings and peer reviews, if required, in order 
+to perform the solution technical assessment and validation. 
+ΓÇó Ensures the preparation, organisation and reporting of Technical Gate reviews 
+(e.g. Design reviews), internal and external, as well as the management of 
+technical non-conformances as required. 
+ΓÇó Reports status and provides input to Project Gate reviews. 
+ΓÇó Responsible for timely submission of required technical documentation to the 
+customer.  
+ΓÇó Guarantees that the verification of technical activities and documents is 
+performed. 
+ΓÇó Ensures the applicable Engineering Performance initiatives are properly 
+deployed in their Project / Product. 
+ΓÇó Support internal and external process audits. 
+Technical Risk and Opportunity 
+ΓÇó Identifies, monitors, and escalates technical risks and opportunities. 
+ΓÇó Supports mitigation strategy. 
+Supplier/Partner Technical Coordination 
+ΓÇó Ensure technical specifications are properly cascaded to suppliers. 
+ΓÇó Support co-engineering activities as needed.  
+ΓÇó Drives the preparation and authorizes the purchase technical specifications 
+ΓÇó Ensures that technical and process requirement are identified in SoW and flown 
+down to suppliers and partners. 
+Requirement and Compliance Management 
+ΓÇó Leads and ensures requirements definition and management throughout the 
+entire project lifecycle, by defining Requirement management strategy and 
+properly maintaining the Requirements Traceability Matrix (RTM), duly tracing 
+requirements verification and validation, and relevant evidence of compliance. 
+Verification and Validation and Quality 
+ΓÇó Ensure that V&V activities are defined, executed, and traced. 
+ΓÇó Guarantee the quality and accuracy of technical documentation and process 
+compliance. 
+Technical Configuration and Baseline Management 
+ΓÇó Ensure assessment of potential gap from Bid submission at the start of the 
+Project. 
+ΓÇó Ensure PBS prepared at Bid phase is confirmed or updated at the start of the 
+project and maintained up to date in appropriate PLM. 
+ΓÇó Leads Configuration Items selection, based on PBS validated at the start of the 
+project. 
+ΓÇó Ensures proper and timely management of project technical configuration,  
+
+--- Page 40 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 40/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó Ensures control of configuration and technical baselines, authorizing changes 
+to baseline and guaranteeing compliance with contract requirements and 
+applicable standards. 
+ΓÇó Enforces the alignment of the technical solution with the baseline assumptions. 
+ΓÇó Manages the technical change requests, variation order, non-compliances, and 
+leads change control boards (CCB) to ensure change impact analysis on scope, 
+technical solution, schedule, cost, and compliance is performed, and authorizes 
+or rejects changes with appropriate records. 
+Documentation and Deliverables 
+ΓÇó Plans: Ensure preparation of Engineering Management plans and their 
+consistency with relevant dependent plans  
+ΓÇó KPIs: tracks performance and competitiveness KPI, performs root cause 
+analysis of problems and conduct associated corrective actions 
+ΓÇó Schedule: Coordinate preparation and updates of project schedule for technical 
+activities; monitors key technical dependencies. 
+ΓÇó Documentation and records: Ensures preparation and delivery of required 
+technical documentation as well as reviews and decision records, with support 
+from technical team and relevant Work Package leaders.  
+o Plans: the project engineering management plan, the relevant design 
+management plans; the design deliverables plan, interface management 
+plan, configuration management plan, requirement management plan, 
+verification and validation management plan, BIM management plan (if 
+applicable) 
+o Technical documents: Complete  list of technical documents/artifacts 
+must be defined and managed in PLM, including but not limited to 
+Requirements, design, verification, validation documentation, as well as 
+all relevant manuals, documentation, and training to the customer.  
+o Technical and configuration baselines and relevant data packs. 
+o If BIM is required by the project: 
+Γû¬ implements BIM Manager (the Project Manager) guidelines into 
+operational BIM workflows. Ensures the issue of all the BIM 
+deliverables, including BIM management plan, planning (4D) and 
+cost estimation (5D). Manages the federation of multidisciplinary 
+models ensuring geometric and information consistency across 
+disciplines 
+Γû¬ SRS: Supports preparation of the as-built model and final handover 
+deliverables, coordinating model updates during construction and 
+ensuring alignment with site changes.  
+4.3.2.5 Contract Manager 
+
+--- Page 41 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 41/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+Tailoring or Adjustments: In small and low risk projects, the role of the Contract 
+Manager may be held by another member of the project team at the discretion of 
+the PM and functional organisation.  
+Main Responsibilities: The Contract Manager ensures that, from contractual and 
+commercial perspectives, contract requirements, responsibilities, and exposures are 
+managed to optimise potential financial return whilst mitigating commercial risk 
+during project delivery. 
+Key Tasks: 
+ΓÇó masters contractual documentation T&Cs, leading the project team in analysis 
+and interpretation and ensuring coverage of any compliance recommendations 
+relative to T&Cs as the output of due diligence reviews 
+ΓÇó supports the complete review of the Project during the planning phase 
+ΓÇó leads and supports the identification of customer contractual conditions to be 
+flowed down into sub-supplier contracts, support in the engagement of major 
+suppliers to ensure appropriate risk transfer 
+ΓÇó ensures the maintenance of contractual records and documentation 
+ΓÇó ensures monitoring and reporting on commercial risks and support 
+identification of opportunities and risk mitigation strategies to preserve key 
+project milestones 
+ΓÇó supports the management of major sub-contracts, including ensuring early due 
+diligence on key subcontractors 
+ΓÇó supports with contract management activities during project delivery 
+ΓÇó supports the PM in managing contractual relations with the customer, partners, 
+JV or consortium 
+ΓÇó supports the PM with Variation Offers or claims, assessing contractual impact 
+and supporting negotiation following relevant approval 
+ΓÇó analyses customer claims or complaints 
+4.3.2.6 Project Quality Manager  
+Main Responsibilities: The Project Quality Manager (PQM) is responsible for the 
+definition, implementation, and maintenance of the Project Quality System (Quality 
+Plan and Procedures) to ensure all Contractual Quality requirements are met.  
+Key Tasks: 
+ΓÇó acts as the QA authority within the Project Team, defining, implementing and 
+maintaining the Project Quality Management Plan (PQMP), ensuring alignment 
+between project execution and GBMS processes 
+ΓÇó support procurement in supplier se lection, monitor, in coordination with 
+procurement, that the identified suppliers are aligned with the quality 
+requirements 
+
+--- Page 42 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 42/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó ensures project quality deliveries are compliant with quality requirements  
+ΓÇó assesses project quality performance and maturity by delivering Quality Advice 
+(Q-Advice) and raising alerts as applicable 
+ΓÇó in collaboration with the project team, monitors the full completion of all quality 
+assessments / process gates in alignment with safety, quality, schedule and 
+cost 
+ΓÇó guarantees that Quality and Safety audits (internal and external) are performed 
+on the project according to RSBU standards 
+ΓÇó monitors and follows up on non -conformities and related corrective actions 
+(including customer comments) 
+ΓÇó conducts Customer Satisfaction surveys at appropriate project stage as agreed 
+with PM 
+ΓÇó monitors and follows up improvement action plans as per Customer Satisfaction 
+survey results 
+ΓÇó ensures proper analysis, escalation, and management of important quality 
+issues across processes, products and systems installed or delivered to 
+customers 
+ΓÇó acts as the direct interface with the Customer, Partners, and External Providers 
+with reference to Quality Assurance aspects 
+ΓÇó identifies and supports the management of Quality risks and opportunities 
+ΓÇó ensures the completion of Project Lessons Learnt Monitoring 
+ΓÇó acts as one of decision makers at engineering  technical Gate reviews (e.g. 
+Design reviews) , ensuring maturity of solution at each gate as per gate 
+objectives throughout the development life cycle 
+ΓÇó VHC & OS&M: At the operational site, ensures management of FAI & monitors 
+completion of product and service nonconformity management, compliance 
+checks and external provider quality control  
+4.3.2.7 HSE Referent 
+Main Responsibilities : The HSE Project  referent ensures the identification, 
+monitoring and management of the Occupational Health and Safety and 
+Environmental risks on site, maintaining a work environment compliant with HSE local 
+legislations, International Standards, Corporate and contractual requirements, 
+preventing injury, illnesses, and pollution. The HSE referent is responsible for the 
+HSE Plan issue (when required)  
+Key Tasks: 
+HSE Planning and Governance 
+ΓÇó prepares and updates the Project HSE Plan ensuring alignment with GBMS, 
+contractual, and legal requirements 
+ΓÇó defines and communicates projectΓÇæspecific HSE rules as required 
+ΓÇó defines Project HSE rules, procedures, and instructions as required. 
+
+--- Page 43 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 43/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+Risk Management and Method Statements 
+ΓÇó identifies, assesses, and records HSE risks and opportunities in the HSE Risk 
+Register, ensuring it is periodically updated to reflect project evolution and 
+findings from field observations 
+ΓÇó reviews Method Statements to ensure HSE hazards are identified and risk 
+controls are adequate and effective 
+Operational Support and Compliance 
+ΓÇó provides HSE advice and support to Project Team to fulfil their responsibilities 
+on HSE 
+ΓÇó verifies compliance of project activities, including sub -contractors, with 
+applicable laws, contractual obligations, and project HSE procedures  
+Monitoring, Reporting and Performance Evaluation 
+ΓÇó performs routine HSE inspections, internal audits, and HSE legal/contractual 
+compliance checks 
+ΓÇó defines necessary corrective actions, assign owners, and verify timely closure. 
+ΓÇó prepares project HSE reports (internal and client -facing), including KPIs, 
+monthly statistics, trends, and dashboards 
+ΓÇó VHC: ensure the management of Vehicles updates in conjunction and alignment 
+with the Project Engineer & Project Operations Manager 
+Incident Management and Emergency Preparedness 
+ΓÇó leads or support s incident reporting and investigation processes, ensuring 
+timely communication and action tracking 
+ΓÇó coordinates and monitors emergency preparedness, including drills and related 
+performance reports 
+Training, Competence and Engagement 
+ΓÇó identifies training and competence HSE requirements for all project personnel 
+and coordinates/delivers required HSE training, site inductions, toolbox talks, 
+and awareness campaigns (including wellbeing initiatives). 
+ΓÇó communicates safety alerts, lessons learned, and best practices across the 
+project. 
+ΓÇó participates in HSE coordination meetings with clients, contractors, and internal 
+stakeholders. 
+4.3.3  Project Execution Team ΓÇô Roles applicable  to SRS  
+4.3.3.1 Project RAMS Manager 
+Tailoring or Adjustments: The Project RAMS Manager, while reporting quality, 
+time, and cost to the PM, acts independently and without influence to ensure safety 
+decision-making.  
+Main Responsibilities: The Project RAMS Manager ensures the RAM and Safety 
+requirements of the project are clearly identified and correctly applied across the 
+
+--- Page 44 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 44/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+system, component, assembly levels, ensuring the delivered solution meets its RAMS 
+requirements to ensure safe and compliant operation  
+Key Tasks 
+ΓÇó coordinates RAMS and Independent Validation WPLs, including the monitoring 
+and follow up on schedule, remedial actions related with physical and 
+economical progress to be agreed with PM and PJC 
+ΓÇó ensures the analysis and definition of RAM, FRACAS, LCC, Safety and Human 
+Factor requirements (where applicable) based on company processes, contract, 
+laws, standards, regulations, or any other sources applicable 
+ΓÇó ensures the elaboration, review and update (as well as authorizes in 
+coordination with the WPLs), RAMS and Independent Validation documents 
+including the documentation supporting given approvals or deployment scope 
+(e.g. authorisation for testing or RAMS readiness for Operational handover), as 
+well as the coordination of suppliersΓÇÖ RAM and Safety activities 
+ΓÇó supports design WPL in confirming the proposed design solution and managing 
+any design changes 
+ΓÇó supports the Warranty Manager in the analysis of data from service 
+ΓÇó ensures the definition and application of the independent validation 
+ΓÇó ensures the certification ( and homologation if applicable) strategy 
+implementation; with the support of the relevant stakeholders (e.g. 
+engineering WPLs), interfacing with relevant authorities, aligning external 
+stakeholders and safety approvals/product acceptance/authorisations with 
+project schedule  
+ΓÇó exercises escalation and veto rights where deliverables are insufficient, 
+ensuring project decisions uphold required independent validation, safety and 
+reliability levels 
+ΓÇó interfaces with the client and relevant project stakeholders (e.g. assessors), 
+involving relevant RAMS and validation WPLs when needed, regarding the 
+management of RAMS activities 
+4.3.3.2 Supply Chain and Procurement Manager  
+Main Responsibilities : The Supply Chain and Procurement (SCPM) is 
+responsible for the project material flow according to the Project Master schedule and 
+securing the timely involvement of all necessary subcontractors to support 
+procurement, logistics, and delivery of on-site activities 
+Key Tasks 
+ΓÇó develops the Supply Chain Master Schedule (including PO definition, materials 
+delivery, external costs etc.) matching the Project Master Schedule and the site 
+activities schedule 
+
+--- Page 45 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 45/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó estimates risks and opportunities against the Project Master Schedule both in 
+terms of Procurement (Buy) and Manufacturing (Make) 
+ΓÇó launches production and activates procurement on time, synchronizing Supply 
+Chain activities and acting as a unique point of contact for manufacturing, 
+logistics, and purchasing 
+ΓÇó monitors and expedites vendorsΓÇÖ and factory activities to meet targets on 
+milestone achievement (raw material availability, FAT, delivery on site) and 
+external costs (work progress, actuals, invoicing expectation, forecast) 
+ΓÇó activates and coordinates logistics to delivery materials on site, reducing 
+shopping time and costs in compliance with export law and regulations  
+ΓÇó ensures subcontracts management 
+ΓÇó provides relevant input for Project schedule and project physical progress 
+ΓÇó identifies and supports the management of Supply Chain and Procurement risks 
+and opportunities 
+ΓÇó supports the Project Engineer in maintenance & management of the 
+obsolescence register 
+4.3.3.3 Construction Manager 
+Main Responsibilities: The Construction Manager  is responsible for planning, 
+coordinating, and controlling all construction and installation activities during project 
+execution. The role ensures that installation work (performed by external providers 
+or internal resources) is delivered safely, on schedule, within scope and budget, and 
+in compliance with quality and HSE requirements. The Construction Manager 
+[SRS] monitors construction progress , manages construction interfaces and 
+subcontractor performance, and ensures that all installation deliverables required for 
+commissioning and project handover are accurate, complete, and timely. 
+Key Tasks 
+ΓÇó defines and update s throughout the project , the  construction installation 
+strategy (including subcontracted activities) and relevant procurement 
+technical specifications, supporting the process for procurement of installation 
+work 
+ΓÇó delivers people, plant, tools and test equipment necessary for construction 
+activities 
+ΓÇó performs site surveys prior to construction/installation activities and reports 
+findings to Project Management 
+ΓÇó defines, approves, and monitors the project construction schedule and provides 
+physical progress updates to the Project Planner 
+ΓÇó manages and coordinates, through the support of the site team, the external 
+providersΓÇÖ installation activities, ensuring that all work is executed in 
+compliance with the requirements, interface constraints, and the project 
+execution plan 
+
+--- Page 46 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 46/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó supports the Project Manager in forecasting installation costs, monitoring and 
+issuing Installation Progress Payment Reports/Certificates for work performed 
+by external providers 
+ΓÇó exchanges technical information, designs, and manuals with 
+partners/subcontractors to obtain method statements; ensure that a Method 
+Statement for each installation activity is in place and reviewed with HSE 
+support 
+ΓÇó manages the amount of material installed respect the material delivery plan 
+provided and updated by the SCPM 
+ΓÇó monitors and ensure s the availability of required construction/installation 
+design documentation, method statements, materials, and adequate resources 
+prior to installation 
+ΓÇó ensures the Management of changes to installation works arising from or 
+related to project design modifications 
+ΓÇó ensures compliance with quality requirements for installation work 
+ΓÇó ensures the implementation of HSE plan/rules on site during the installation 
+phase 
+ΓÇó ensures the handover to the Commissioning Manager upon completion of 
+installation activities by formalizing the Handover Certificates and providing the 
+relevant Installation Test Records 
+ΓÇó captures and transfers the ΓÇ£asΓÇæinstalledΓÇ¥ asset list as part of the data continuity 
+process 
+ΓÇó provides ΓÇ£as builtΓÇ¥ information to the Project Engineer 
+4.3.3.4 Commissioning Manager [SRS]  
+Main Responsibilities: Accountable for all commissioning activities on site 
+Key Tasks 
+ΓÇó ensures the definition of the commissioning strategy and of the commissioning 
+activities, the estimation of costs and resources, and the definition of the 
+schedule; all regarding the on-site testing activities, including assumptions and 
+limitations as well as commissioning coordination effort 
+ΓÇó ensures the definition, execution and monitoring of commissioning activities, 
+in accordance with the Commissioning Plan and/or Verification and Validation 
+Plan and their integration and synchronization with the construction activities 
+and the project delivery work plan and schedule. Ensures the reporting of 
+physical progress 
+ΓÇó ensures the on -time availability of resources, materials, tools and test 
+equipment necessary for commissioning activities. 
+ΓÇó ensures proper interface with the stakeholders (Customer Onsite Referents, 
+Operators, Construction Managers and Commissioning Managers of 
+partners/subcontractors, HSE Managers, V&V and RAMS for onsite testing 
+
+--- Page 47 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 47/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+activities, etc.) during the preparation and the execution of the commissioning 
+and on-site testing activities 
+ΓÇó ensures the Implementation of the established HSE plan/rules during 
+commissioning  
+ΓÇó ensures raising and management the non-conformity and change request with 
+Project Engineer 
+ΓÇó ensures the identification and management of risks and opportunities within 
+commissioning 
+4.3.3.5 Warranty Manager [SRS] 
+ 
+Main Responsibilities: The Warranty Manager is responsible for the design of the 
+Warranty activities, for people and resources mobilisation and for executing warranty 
+activities according to the contractual requirements foreseen during the warranty 
+period as well as managing the relevant financials 
+Key Tasks: 
+ΓÇó ensures the Management of warranty teams operating at customer site or 
+remotely 
+ΓÇó with the support of the Supply Chain Planner and based on RAM data, ensures 
+the managements of materials necessary for the execution of the warranty 
+activities 
+ΓÇó delivers people, plant, tools and test equipment necessary to delivery warranty 
+activities. 
+ΓÇó ensures the Monitoring of supplier performance (KPIs) in the execution of 
+relevant warranty contractual obligations 
+ΓÇó ensures the Collection of RAM data and keeps alive the FRACAS (Failure 
+Reporting and Correcting Actions System) process hand overed to the Warranty 
+team. Ensures proper reporting of the relevant information to relevant teams. 
+ΓÇó ensures the Management of system updates, obsolescence of installed items 
+and customer spares during the warranty period in conjunction with the Project 
+Engineer and Procurement. 
+ΓÇó ensures monitoring, control and reporting on the cost associated to warranty 
+activities 
+ΓÇó assesses requests for extended warranty or scope changes; price and formalise 
+variations. 
+4.3.4  Project Execution Team ΓÇô Roles applicable  to VHC  
+4.3.4.1 Project RAM Manager 
+Main Responsibilities : The Project RAM Manager  is responsible for the 
+identification of the RAM requirements of the project, mapping applicability across the 
+system/ component/ assembly, and ensuring the delivered solution is compliant. 
+
+--- Page 48 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 48/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+Key Tasks: 
+ΓÇó analyses and defines RAM and LCC requirements based on contract, laws, 
+regulations, or any other sources 
+ΓÇó ensures the elaboration, review and update of RAM and LCC documentation 
+ΓÇó supports design WPL in confirming the proposed design solution and managing 
+any design changes 
+ΓÇó develops RAM and LCC analysis for make subsystem 
+ΓÇó coordinates sub-suppliers RAM and LCC activities  
+ΓÇó integrates the RAM and LCC at vehicle level  
+ΓÇó proposes, monitors and follows up remedial actions 
+ΓÇó ensures the system/vehicle is compliant with RAM requirements prior to 
+operations handover, including preparation of the RAM demonstration plan 
+ΓÇó supports the Warranty manager preparing the RAM and LCC demonstration 
+plan and in the analysis of data from service 
+ΓÇó ensures elaboration of the first release of the maintenance plan and of is 
+continuous updating  
+ΓÇó identifies and supports the management of RAM and LCC risks and 
+opportunities 
+ΓÇó coordinates with Certification Manager regarding RAM certification process 
+4.3.4.2 Project Safety Manager 
+Tailoring or Adjustments: Reporting to the PM, the Project Safety Manager acts 
+as a validator operating independently of the Project Engineer, in accordance with 
+CENELEC/IEC standards  
+Main Responsibilities : The Project Safety Manager  is responsible for the 
+identification of the Safety requirements of the project, mapping applicability across 
+the system/ component/ assembly, and ensuring the delivered designed solution is 
+safe for the intended scope.  
+Key Tasks: 
+ΓÇó analyses and defines safety requirements based on contract, laws, regulations, 
+or any other sources 
+ΓÇó ensures the elaboration, review and update of safety documentation 
+ΓÇó supports design WPL in confirming the proposed design solution and managing 
+any design changes 
+ΓÇó coordinates sub-suppliers Safety activities  
+ΓÇó monitors and follows up remedial actions 
+ΓÇó identifies and, when required, manages and ensures  the Safety Related 
+Application Conditions (SRAC) are met/implemented 
+
+--- Page 49 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 49/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó ensures the system/vehicle is compliant with Safety requirements prior to 
+operations handover 
+ΓÇó coordinates with Certification Manager regarding Safety certification process 
+4.3.4.3 Project Procurement Manager 
+Main Responsibilities: The Project Procurement Manager (PPM) manages and 
+coordinates all the procurement activities relevant to the Project, ensuring the respect 
+of budget, schedule, and quality of the deliverables  
+Key Tasks: 
+ΓÇó analyses contractual requirements with the support of stakeholders (in 
+particular Legal, Contract Management, and Project Management), ensuring 
+key conditions are passed on to sub-suppliers 
+ΓÇó issues the project procurement plan aligned with budget and schedule, and 
+monitors progress, ensuring adherence 
+ΓÇó completes of the supplier selection process 
+ΓÇó tracks the completion of the First Article Inspection process 
+ΓÇó ensures that all contracts/LOI relevant to key sub -suppliers are formally 
+approved by the Project Manager 
+ΓÇó verifies and monitors trend and deviations of procurement costs, supporting 
+assessment of main causes and recover actions  
+ΓÇó in case of change to vehicle configuration impacting supplier scope of work, 
+analyses the impact of changes 
+ΓÇó identifies and supports the management of Procurement risks and opportunities 
+ΓÇó in case of make/buy mix changes, supports the Project Controller to estimate 
+economic impact 
+4.3.4.4 Test Manager 
+Tailoring or Adjustments: In case of multi business project, Test Manager works 
+in strict coordination with SRS Commissioning Manager, specifically for the 
+performance of on-shore Type Test and System Integration Tests  
+Main Responsibilities: The Test Manager plans, coordinates and carries out testing 
+activities for all vehicles used in development and verification activities (prototypes, 
+pre-series), for the purposes of project validation, qualification and approval test, in 
+accordance with the project test plan 
+Key Tasks: 
+ΓÇó ensures that a Project Test Plan is developed and elaborates technical 
+validation documentation on the basis of documentation issued by the PE 
+
+--- Page 50 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 50/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó coordinates the elaboration of the vehicle testing procedures for routine and 
+vehicle type tests, in accord ance with  the master schedule, ensuring the 
+standardization of formats and processes for each plant involved 
+ΓÇó ensures with PE that the procedures guarantee the full coverage required to 
+validate homologation and design requirements at vehicle level 
+ΓÇó supports the relevant WPLs for analysing vehicle test results  
+ΓÇó support the Project Planner to ensure testing fully aligned with the second level 
+schedule 
+ΓÇó coordinates and agrees with project team / customer to ensure availability of 
+required assets to perform any defined test activities 
+ΓÇó defines and manages measurement systems and test tools for the presentation 
+of test data 
+ΓÇó provides feedback to the PE of the tests performed and the list of open items 
+detected 
+ΓÇó issues reports of tests carried out, in order to validate the requirements 
+ΓÇó ensures the application of Health and Safety rules during the test phase 
+ΓÇó cooperates with Design engineering units (who provide the Project Test 
+Specification) and Integrated Planning in scheduling the Routine Testing of 
+series build make components and vehicles in line with the entire operation 
+planning 
+ΓÇó works with the PE to support the Certification Manager, who is responsible for 
+the vehicle authorization strategy 
+ΓÇó assesses the impact (contractual, technical and economical) on activities of the 
+operational railway rules of the countries in which Type Testing and the 
+acceptance test have to be carried out 
+4.3.4.5 Project Operations Manager 
+Tailoring or Adjustments: Project Operations Manager (POM) for RS project is 
+the former Project Manufacturing Manager. POM for S&M project is the former S&M 
+Supply Chain Manager  
+Main Responsibilities: 
+Rolling Stock: coordinate and ensure the relevant industrial activities 
+S&M: coordinate and ensure the relevant maintenance activities  
+Key Tasks: 
+Rolling Stock (each plant involved in the RS project shall nominate a POM, as the 
+interface towards the Project Team for industrialization, logistics and production 
+activities of the relevant factory, ensuring the respect of production schedule, costs 
+and quality)  
+
+--- Page 51 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 51/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó reports progress of production activities for the relevant factory to the Project 
+team on a regular basis (monthly progress reviews) and immediately in case 
+of criticalities. 
+ΓÇó supports the definition of the most competitive solutions ( including technical 
+solution, make or buy decision ) providing all relevant elements related to 
+manufacturing; feeding in the required manufacturing milestones that will be 
+included in an Integrated Plan as an output measure for other Functions; 
+ΓÇó ensures, by interfacing with the Planning of the Plant, the development and the 
+regular update of the ΓÇ£Third Level scheduleΓÇ¥ of the plant manufacturing 
+activities, in alignment with the overall schedule of the project; 
+ΓÇó monitors the progress of the activities from the initial phases (including opening 
+of the project, issue of drawings) to anticipate any impact on production 
+activities and proposes recovery actions; 
+ΓÇó organises the program of introduction of modifications and retrofits in the 
+factory (including availability of materials, availability of production lines);  
+ΓÇó coordinates the activities to transfer the vehicles/components among different 
+factories; 
+ΓÇó ensures the readiness of the vehicle/component for its delivery to the 
+customer; in particular is responsible for the vehicle/component configuration 
+(changes, missing parts, nonconformities) and for related update. 
+ΓÇó in case of more plants manufacturing the same Scope of Work, a coordination 
+among POMs is necessary during the industrialization and change management 
+phases 
+Service and Maintenance 
+ΓÇó implements and govern s the contracted service model and maintenance 
+strategy in compliance with client requirements 
+ΓÇó plans and optimise s resources, materials and operational capacity to meet 
+availability and reliability targets 
+ΓÇó monitors maintenance activities and contractual KPIs (availability, reliability, 
+maintainability), anticipating issues and defining recovery actions 
+ΓÇó coordinates logistics activities, ensuring regulatory compliance and 
+optimisation of lead times and costs 
+ΓÇó drives continuous improvement of maintenance processes, including 
+optimisation of maintenance intervals and introduction of diagnostic solutions 
+4.3.4.6 Commissioning Manager [VHC] 
+Main Responsibilities:  Leads and controls all on -site commissioning activities 
+required to deliver vehicles to the customer, ensuring safe execution and achievement 
+of test, repair and acceptance milestones within the agreed budget and schedule  
+Key Tasks: 
+
+--- Page 52 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 52/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+ΓÇó plans and coordinates all commissioning, repair and completion activities at 
+customer premises, ensuring optimal train configuration and positive testing 
+prior to the delivery to the customer  
+ΓÇó sizes and manages of commissioning staff workload 
+ΓÇó manages of materials flow and interfacing with suppliers for interventions 
+ΓÇó interfaces with the customer for test activities undertaken on external sites 
+ΓÇó implements the established HSE plan/rules during commissioning 
+ΓÇó identifies and supports the management of risks and opportunities associated 
+with the Commissioning period 
+4.3.4.7 Warranty Manager [VHC]  
+Main Responsibilities: The Warranty Manager is responsible for the design of the 
+maintenance activities, people and resources mobilisation and for executing 
+maintenance activities according to the contractual requirements foreseen during the 
+warranty period 
+Key Tasks: 
+ΓÇó manages of maintenance teams operating at customer site or remotely 
+ΓÇó with the support of RAM data, manages materials necessary for the execution 
+of the warranty 
+ΓÇó monitors supplier performance in the execution of relevant warranty obligations 
+ΓÇó collects of RAM data 
+ΓÇó where applicable, supports the execution of system updates to be carried out 
+at customer site or from remote 
+ΓÇó identifies and supports the management of risks and opportunities associated 
+with the Warranty period 
+ΓÇó implements the established HSE plan/rules 
+  
+
+--- Page 53 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 53/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+5 TRANSITION RULES - SUMMARY 
+RULE # DOMAIN APPLICABLE DOC 
+SUPERSEDED 
+DOCS (*) 
+PERIOD 
+1 
+Description: Bid or 
+Project Team Roles   
+Rationale: Full 
+harmonisation of 
+Bidding and Project 
+Team roles still in 
+progress. 
+RSBU Legacy 
+Document: 
+G-MNL A0800(**)  
+GTS Legacy 
+Document:  
+5.2 PRJ ΓÇô Manage 
+Project 87200984-
+00-PRJ-GRP-EN(**) 
+5.1 BID - Manage 
+Bid 87200484-00-
+BID-GRP-EN(**) 
+Description:  
+N/A 
+ 
+Until the release of the 
+full list of Bidding and 
+Project Team roles and 
+their associated 
+tailoring  
+(*) The corresponding MS Administrator is accountable for removing the superseded 
+documents from the MS repository. 
+(**) Partially superseded by transition rule ┬º4 excepted for roles not under the initial release 
+of the PTO or additional detail related to tailoring for specific projects. 
+Although this document is applicable immediately upon publication, it is understood 
+the RSBU have a large backlog of complex Bids and Projects in execution and will be 
+unable to transition to the new Organisation instantaneously. 
+For all new Bids or Projects beginning execution after the date of publication, the roles 
+within this TRN will be applied . These roles may be supplemented by roles  in 
+documentation from legacy RSBU or legacy GTS only where these are not covered in 
+the transition rules and they do not conflict with any principles defined within this 
+document. Upon the release of the full Project Team Organisatio n Manual, legacy 
+documentation will be fully superseded.   
+For Bids currently in progress, the roles defined in this document shall not be applied 
+if the bid is expected to be completed within three (3) months from the date of 
+publication of this document. For Bids with an expected completion beyond this 
+period, the applicability of the new roles and organisation shall be assessed on a case-
+by-case basis, in agreement with the respective LoB/Region/BS management.  
+For Projects currently in execution, it is expected that a proportion of the backlog  
+projects will be required to transfer to the new Project Team Organisation. This will 
+follow a staged approach defined by the PMO Organisation in accordance with 
+LoB/region/BS management, based on the value of the project,  percentage of 
+completion, the remaining time to completion, its structure (extent of multi -
+site/segment/LoB collaboration), and risks or opportunities perceived by the Project 
+Management organisation.   
+
+--- Page 54 ---
+ 
+Title Code Country Rev Page 
+RSBU Project Team Organisation Transition Rules G-TRN A08001 ALL 00 54/54 
+Hitachi Rail ΓÇô Internal  
+┬⌐ Property of Hitachi Ltd., Hitachi Rail Ltd., and all its subsidiary companies, 2026, all rights reserved. 
+GBMS 2.0 
+6 COMPARISON SUMMARY  
+A comparison between the former RSBU and legacy GTS Bidding and Project Team 
+Organisations has been performed. Following this analysis, the following main points 
+of difference and similarity are noted: 
+ΓÇó Both legacy businesses operate in a project environment and have a number 
+of established  standard roles that are staff ed in case of  Bidding or Project 
+execution. 
+ΓÇó Both legacy businesses require collaboration between a Bidding or Project 
+organisation and a function organisation in order to meet the objectives of the 
+business. 
+ΓÇó Differences exist in the legacy organisations in the specific roles required as 
+standard in a Bidding or Project Team (roles, naming, responsibilities and key 
+tasks), e.g. legacy RSBU Sales Manager and legacy GTS Capture Lead. 
+ΓÇó Differences also exist in the management of Bidding or Project Team roles when 
+a project operates  across multiple regions , business segments, or Lines of 
+Business, e.g. a single accountable PM in legacy RSBU and multiple PMs in 
+legacy GTS. 
+ΓÇó Definition of a Bidding or Project Team Organisation is managed with different 
+levels of formality between the two legacy organisations , with legacy RSBU 
+using a GBMS Manual and legacy GTS leveraging an excel tool explaining roles. 
+The results of the comparison analysis, including identified best practices on both 
+sides, have been taken into consideration in defining and clarifying the principles and 
+Bidding and Project Team roles defined in this document.  
+
